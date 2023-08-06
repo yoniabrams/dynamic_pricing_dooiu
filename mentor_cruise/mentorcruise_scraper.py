@@ -7,9 +7,17 @@ import re
 import pandas as pd
 
 UA = UserAgent()
+TIMEOUT = 5
+DEFAULT_CSV_FILENAME = 'saved_list.csv'
 
 BASE_URL = 'https://mentorcruise.com'
 MENTOR_SEARCH_URL = 'https://mentorcruise.com/mentor/browse/?return=minimal'
+BROWSE_PATH = '/mentor/browse'
+
+DIV = 'div'
+A = 'a'
+SPAN = 'span'
+
 DIV_CLASS_MENTOR = 'relative box px-7 py-8 transition-all duration-150 mb-12 max-w-screen-lg mx-auto'
 DIV_NEXT_PAGE = '-mt-px w-0 flex-1 flex justify-end'
 DIV_BASIC_DATA = 'mt-5 font-normal text-slate-600'
@@ -19,8 +27,8 @@ SPAN_BASIC_DATA = 'block mb-2'
 SPAN_PRICE_ELEMENT = 'price-element'
 INFO_H1 = 'text-slate-900 font-bold text-2xl mb-1'
 INFO_H2 = INFO_H1
+MT6 = 'mt-6'
 URL_ATTRIBUTE = 'href'
-TIMEOUT = 5
 
 
 def get_response_then_get_soup(url):
@@ -52,9 +60,9 @@ def get_mentor_urls_from_page(soup_of_page):
     :return: urls of the mentors.
     """
     urls = list()
-    all_speaker_divs = soup_of_page.find_all('div', class_=DIV_CLASS_MENTOR)
+    all_speaker_divs = soup_of_page.find_all(DIV, class_=DIV_CLASS_MENTOR)
     for div_element in all_speaker_divs:
-        a_element = div_element.find('a')
+        a_element = div_element.find(A)
         mentor_path = a_element[URL_ATTRIBUTE]
         urls.append(BASE_URL + mentor_path)
     return urls
@@ -66,7 +74,7 @@ def get_next_page_soup(current_page_soup):
     :return: Soup object for the NEXT page which lists mentors
     """
     # get div_element for the 'next' button
-    next_element = current_page_soup.find('div', class_=DIV_NEXT_PAGE)
+    next_element = current_page_soup.find(DIV, class_=DIV_NEXT_PAGE)
 
     # check if there is a next page element:
     if next_element is None:
@@ -76,7 +84,7 @@ def get_next_page_soup(current_page_soup):
     next_page_path = next_element.a[URL_ATTRIBUTE]
 
     # construct the full url to the next page
-    next_url = BASE_URL + '/mentor/browse' + next_page_path
+    next_url = BASE_URL + BROWSE_PATH + next_page_path
 
     # get soup object for the next page url
     soup = get_response_then_get_soup(next_url)
@@ -103,7 +111,7 @@ def get_all_mentor_urls(url):
     return all_urls
 
 
-def write_list_to_csv(lst, filename='saved_list.csv'):
+def write_list_to_csv(lst, filename=DEFAULT_CSV_FILENAME):
     """
     save a list ot a csv, one element per row
     :param lst: a list of items
@@ -121,8 +129,8 @@ def get_basic_data(soup):
     :param soup: BeautifulSoup object of a particular mentor's page
     :return: (tuple) - country, rating (out of 5) and reviews (number of reviews)
     """
-    div_basic_data = soup.find('div', class_=DIV_BASIC_DATA)
-    span_basic_data = div_basic_data.find_all('span', class_=SPAN_BASIC_DATA)
+    div_basic_data = soup.find(DIV, class_=DIV_BASIC_DATA)
+    span_basic_data = div_basic_data.find_all(SPAN, class_=SPAN_BASIC_DATA)
 
     # basic data ~ COUNTRY:
     country = span_basic_data[0].a.span.text
@@ -146,6 +154,30 @@ def get_mentor_price(soup):
     return
 
 
+def get_mentor_skills(soup):
+    """Get mentor skills from the mentor's webpage"""
+    div_mentor_data = soup.find(DIV, class_=DIV_MENTOR_DATA)
+    all_divs = div_mentor_data.find_all(DIV)
+
+    skills = list()
+    for div in all_divs:
+        if div.h2 is not None and div.h2.text.strip() == 'Skills':
+            div_mt6_class = div.find(DIV, class_=MT6)
+            if div_mt6_class is not None:
+                a_list = div_mt6_class.find_all(A)
+                if len(a_list) > 0:
+                    skills = [a_item.text.strip() for a_item in a_list]
+
+    return skills
+
+
+def get_mentor_name(soup):
+    """Get mentor name from the mentor's webpage"""
+    h1_element = soup.find('h1', class_=INFO_H1)
+    name = h1_element.text.strip()
+    return name
+
+
 def get_mentor_data(mentor_page_url):
     """
     :param mentor_page_url:
@@ -155,29 +187,13 @@ def get_mentor_data(mentor_page_url):
     soup = get_response_then_get_soup(mentor_page_url)
 
     # get mentor name
-    h1_element = soup.find('h1', class_=INFO_H1)
-    mentor_data['name'] = h1_element.text.strip()
+    mentor_data['name'] = get_mentor_name(soup)
 
-    # get detailed details
-    div_mentor_data = soup.find('div', class_=DIV_MENTOR_DATA)
-    all_divs = div_mentor_data.find_all('div')
+    # get mentor skills / category
+    mentor_data['skills'] = get_mentor_skills(soup)
+    mentor_data['category'] = None  # will fill in this data in post-collection phase
 
-    # get skills and topics/categories
-    key = None
-    for div in all_divs:
-
-        if div.h2 is not None and div.h2.text.strip() == 'Skills':
-            key = 'skills'
-        elif div.h2 is not None and div.h2.text.strip() == 'Topics':
-            mentor_data['category'] = None
-            break
-
-        div_mt6_class = div.find('div', class_='mt-6')
-        if div_mt6_class is not None:
-            a_list = div_mt6_class.find_all('a')
-            if len(a_list) > 0:
-                mentor_data[key] = [a_item.text.strip() for a_item in a_list]
-
+    # get country, rating and reviews
     country, rating, reviews = get_basic_data(soup)
     mentor_data['country'] = country
     mentor_data['rating'] = rating
@@ -190,29 +206,33 @@ def get_mentor_data(mentor_page_url):
     return mentor_data
 
 
-def scrape_all_mentor_data():
-    # urls = get_all_mentor_urls(MENTOR_SEARCH_URL)
-    urls = list()
-    with open('mentor_urls_mentor_cruise.csv', 'r') as csv_file:
-        reader = csv.reader(csv_file)
-        for row in reader:
-            if row:
-                url = row[0]
-                urls.append(url)
+def scrape_all_mentor_data(from_csv=True):
+    """
+    This function collects all mentor data from each mentor homepage on mentorcruise.com
+    :param from_csv: (bool) This boolean will tell the function whether to get the mentor url list by scraping the cite,
+    or if it can collect the list from a pre-scraped csv file.
+    :return df: (pd.DataFrame) All the data (Name, Skills, Category, Country, Rating, # Reviews, Price)
+    """
+    if not from_csv:
+        urls = get_all_mentor_urls(MENTOR_SEARCH_URL)
+    else:
+        urls = list()
+        with open('mentor_cruise/mentor_urls_mentor_cruise.csv', 'r') as csv_file:
+            reader = csv.reader(csv_file)
+            for row in reader:
+                if row:
+                    url = row[0]
+                    urls.append(url)
 
     data_list = list()
-    count = 0
     for url in urls:
-        count += 1
         data_dict = get_mentor_data(url)
         data_list.append(data_dict)
-        if count % 100 == 0:
-            break
 
     df = pd.DataFrame(data_list)
-    df.to_csv('mentor_cruise_data.csv')
+    df.to_csv('mentor_cruise/mentor_cruise_data.csv')
     return df
 
 
 if __name__ == '__main__':
-    scrape_all_mentor_data()
+    # data = get_mentor_data('https://mentorcruise.com/mentor/LloydJacob/')
