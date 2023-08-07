@@ -49,7 +49,7 @@ REGEX_CATEGORY_PATTERN = r'/([^/]+)-\d+$'
 REGEX_MINUTE_RATE_PATTERN = r'\$(\d+(\.\d+)?)'
 
 MAX_CLICKS = 100  # arbitrary
-MAX_CLICK_FAILS = 2  # TODO CHANGE TO 5
+MAX_CLICK_FAILS = 3
 
 DEBUG = False
 
@@ -155,8 +155,6 @@ def get_all_consultants_urls(safe_mode=False):
         reader = csv.reader(csv_file)
         for i, row in enumerate(reader):
             if row:
-                if i <= 2145:  # TODO CHANGE BACK
-                    continue
                 url = row[0]
                 topic_urls.append(url)
 
@@ -314,7 +312,7 @@ def get_all_consultant_data_for_all_topics():
     all_urls_dict = get_all_consultants_urls(safe_mode=True)
     all_consultant_data = list()  # will be list of dictionaries
 
-    for topic in list(all_urls_dict.keys()):  # TODO CHANGE THIS BACK!!!!!
+    for topic in list(all_urls_dict.keys()):
         logger.debug(f'{topic=}')
 
         for i, consultant_url in enumerate(all_urls_dict[topic]):
