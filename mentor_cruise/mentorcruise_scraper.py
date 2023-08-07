@@ -235,4 +235,7 @@ def scrape_all_mentor_data(from_csv=True):
 
 
 if __name__ == '__main__':
+    # Example mentor to scrape:
     # data = get_mentor_data('https://mentorcruise.com/mentor/LloydJacob/')
+
+    scrape_all_mentor_data(from_csv=True)
