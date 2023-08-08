@@ -15,44 +15,46 @@ import logging
 
 from tqdm import tqdm
 
+USE_STREAM_HANDLER = False
+
 # Create a logger
 logger = logging.getLogger("scraper_logger")
 logger.setLevel(logging.DEBUG)
 
-# Create a file handler to write logs to the file
 log_file = "scraper_logger.log"
 file_handler = logging.FileHandler(log_file)
 
-# Create a formatter with the desired log format
 log_format = "%(asctime)s - %(filename)s - %(funcName)s - %(levelname)s - %(message)s"
 formatter = logging.Formatter(log_format)
 
-# Attach the formatter to the file handler
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
+
+if USE_STREAM_HANDLER:
+    stream_handler = logging.StreamHandler()
+    stream_handler.setLevel(logging.DEBUG)
+    stream_handler.setFormatter(formatter)
+    logger.addHandler(stream_handler)
 
 
 UA = UserAgent()
 TIMEOUT = 5
 WAIT = 20
 DEFAULT_CSV_FILENAME = 'saved_list.csv'
-
 BASE_URL = 'https://clarity.fm'
 BROWSE_BASE_URL = 'https://clarity.fm/browse'
 DIV_CATEGORIES_WRAPPER = 'categories-wrapper'
-
 URL_ATTRIBUTE = 'href'
-
 REGEX_UL_PATTERN = r'<li class="member-item list-item" data-href="([^"]+)">'
 REGEX_HREF_PATTERN = r'<a href="(.*?)"'
 REGEX_CATEGORY_PATTERN = r'/([^/]+)-\d+$'
 REGEX_MINUTE_RATE_PATTERN = r'\$(\d+(\.\d+)?)'
-
-MAX_CLICKS = 100  # arbitrary
+MAX_CLICKS = 60  # arbitrary
 MAX_CLICK_FAILS = 3
-
 DEBUG = False
 
+FROM_SAVED_URLS = True
+HAVING_TROUBLE_WITH_CHROME = True
 
 def click_load_more_and_get_hrefs(url):
     """
@@ -63,9 +65,17 @@ def click_load_more_and_get_hrefs(url):
     :param url: url for the list of consultants ina  particular category
     :return: (list) Hrefs for all consultants pages who fall in a category
     """
-    driver = webdriver.Chrome()
+    if HAVING_TROUBLE_WITH_CHROME:
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.binary_location = '/google-chrome-stable_current_x86_64.rpm'
+        chrome_options.add_argument('--headless')
+        driver = webdriver.Chrome(options=chrome_options)
+    else:
+        driver = webdriver.Chrome()
+
     driver.get(url)
     wait = WebDriverWait(driver, WAIT)
+
     count = 0
     fails_in_a_row = 0
 
@@ -216,7 +226,16 @@ def get_consultant_data(url):
 
     # get price info from sidebar
     try:
-        driver = webdriver.Chrome()
+        if HAVING_TROUBLE_WITH_CHROME:
+            chrome_options = webdriver.ChromeOptions()
+            chrome_options.binary_location = '/google-chrome-stable_current_x86_64.rpm'
+            chrome_options.add_argument('--headless')
+            driver = webdriver.Chrome(options=chrome_options)
+        else:
+            driver = webdriver.Chrome()
+
+        driver.get(url)
+        wait = WebDriverWait(driver, WAIT)
         driver.get(url)
         wait = WebDriverWait(driver, WAIT)
         sidebar = wait.until(
@@ -303,27 +322,42 @@ def get_all_topic_urls(src='clarity_topic_uls.csv'):
     return topics_urls
 
 
-def get_all_consultant_data_for_all_topics():
+def get_all_consultant_data_for_all_topics(from_saved_urls=False):
     """
     This function collects all the consultant data from all the different categories on clarity.com.
     The data is stored in a csv.
     :return: None
     """
-    all_urls_dict = get_all_consultants_urls(safe_mode=True)
+    if from_saved_urls:
+        all_urls_dict = eval(open('save_urls.txt', 'r').read())
+    else:
+        all_urls_dict = get_all_consultants_urls(safe_mode=True)
+
     all_consultant_data = list()  # will be list of dictionaries
+    cache = {}
 
-    for topic in list(all_urls_dict.keys()):
-        logger.debug(f'{topic=}')
+    num_topics = len(list(all_urls_dict.keys()))
+    for i, topic in tqdm(enumerate(list(all_urls_dict.keys()))):
+        logger.debug(f'{topic=} | {i} of {num_topics}')
 
-        for i, consultant_url in enumerate(all_urls_dict[topic]):
+        for j, consultant_url in tqdm(enumerate(all_urls_dict[topic])):
             logger.debug(f'{consultant_url=}')
 
-            consultant_data = get_consultant_data(consultant_url)
+            # if we've already scraped this url as part of a diff topic, then grab the cached data to save time
+            if consultant_url in cache:
+                consultant_data = cache[consultant_url]
+                logger.debug('data was already cached!')
+            else:
+                consultant_data = get_consultant_data(consultant_url)
+                cache[consultant_url] = consultant_data
+                logger.debug('data was scraped fresh!')
+
+            # either way, we want to separately associate this consultant with this topic.
             consultant_data['category'] = topic
             all_consultant_data.append(consultant_data)
 
-            if i % 20 == 0:
-                logger.debug(f'{i=} of {len(all_urls_dict[topic])}')
+            if j % 10 == 0:
+                logger.debug(f'{j=} of {len(all_urls_dict[topic])}')
                 with open('just_in_case.txt', 'w') as safety_net:
                     safety_net.write(str(all_consultant_data))
 
@@ -332,4 +366,4 @@ def get_all_consultant_data_for_all_topics():
 
 
 if __name__ == '__main__':
-    get_all_consultant_data_for_all_topics()
+    get_all_consultant_data_for_all_topics(from_saved_urls=FROM_SAVED_URLS)
