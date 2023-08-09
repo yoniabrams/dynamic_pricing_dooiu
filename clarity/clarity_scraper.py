@@ -1,6 +1,7 @@
 import csv
 
 import grequests
+from concurrent.futures import ProcessPoolExecutor
 from fake_useragent import UserAgent
 from bs4 import BeautifulSoup
 import re
@@ -12,8 +13,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 import logging
-
-from tqdm import tqdm
 
 USE_STREAM_HANDLER = False
 
@@ -36,7 +35,6 @@ if USE_STREAM_HANDLER:
     stream_handler.setFormatter(formatter)
     logger.addHandler(stream_handler)
 
-
 UA = UserAgent()
 TIMEOUT = 5
 WAIT = 20
@@ -54,7 +52,8 @@ MAX_CLICK_FAILS = 3
 DEBUG = False
 
 FROM_SAVED_URLS = True
-HAVING_TROUBLE_WITH_CHROME = True
+HAVING_TROUBLE_WITH_CHROME = False
+
 
 def click_load_more_and_get_hrefs(url):
     """
@@ -289,6 +288,10 @@ def get_consultant_data(url):
 
     # number of stats out of 5 | num reviews:
     try:
+        sidebar = wait.until(
+            EC.presence_of_element_located(
+                (By.XPATH, r'//*[@id="container"]/article/div[2]/article/div[1]/div[1]/div[1]/div/div[2]'))
+        )
         stars_div = sidebar.find_element(By.CLASS_NAME, 'stars')
         stars = stars_div.find_elements(By.TAG_NAME, 'i')
 
@@ -337,29 +340,34 @@ def get_all_consultant_data_for_all_topics(from_saved_urls=False):
     cache = {}
 
     num_topics = len(list(all_urls_dict.keys()))
-    for i, topic in tqdm(enumerate(list(all_urls_dict.keys()))):
-        logger.debug(f'{topic=} | {i} of {num_topics}')
+    for i, topic in enumerate(list(all_urls_dict.keys())):
+        to_scrape = [url for url in all_urls_dict[topic] if url not in cache]
+        already_scraped = [url for url in all_urls_dict[topic] if url in cache]
 
-        for j, consultant_url in tqdm(enumerate(all_urls_dict[topic])):
-            logger.debug(f'{consultant_url=}')
+        logger.debug(f'{topic=}')
+        logger.debug(f'topic {i} of {num_topics}')
+        logger.debug(f'# to scrape: {len(to_scrape)}')
+        logger.debug(f'# already scraped: {len(already_scraped)}')
 
-            # if we've already scraped this url as part of a diff topic, then grab the cached data to save time
-            if consultant_url in cache:
-                consultant_data = cache[consultant_url]
-                logger.debug('data was already cached!')
-            else:
-                consultant_data = get_consultant_data(consultant_url)
-                cache[consultant_url] = consultant_data
-                logger.debug('data was scraped fresh!')
-
-            # either way, we want to separately associate this consultant with this topic.
+        # grab the previously scraped data from the cache and append the new category/topic
+        for url in already_scraped:
+            consultant_data = cache[url]
             consultant_data['category'] = topic
             all_consultant_data.append(consultant_data)
 
-            if j % 10 == 0:
-                logger.debug(f'{j=} of {len(all_urls_dict[topic])}')
-                with open('just_in_case.txt', 'w') as safety_net:
-                    safety_net.write(str(all_consultant_data))
+        # scrape the previously unscraped urls for data, 5 at a time
+        with ProcessPoolExecutor(max_workers=5) as executor:
+            mult_consultant_data = list(executor.map(get_consultant_data, to_scrape))
+
+        # save the newly scraped data
+        for url, consultant_data in mult_consultant_data:
+            cache[url] = consultant_data
+            consultant_data['category'] = topic
+            all_consultant_data.append(consultant_data)
+
+            # save periodically just in case
+            with open('just_in_case.txt', 'w') as safety_net:
+                safety_net.write(str(all_consultant_data))
 
     df = pd.DataFrame(all_consultant_data)
     df.to_csv('all_data.csv')
