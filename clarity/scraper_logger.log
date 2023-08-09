@@ -1,0 +1,488 @@
+2023-08-09 10:13:56,856 - clarity_scraper.py - get_all_consultant_data_for_all_topics - DEBUG - i=0 of 161
+2023-08-09 10:13:56,857 - clarity_scraper.py - get_all_consultant_data_for_all_topics - DEBUG - topic='entrepreneurship'
+2023-08-09 10:13:56,857 - clarity_scraper.py - get_all_consultant_data_for_all_topics - DEBUG - # to scrape: 1500
+2023-08-09 10:13:56,857 - clarity_scraper.py - get_all_consultant_data_for_all_topics - DEBUG - # to scrape: 0
+2023-08-09 10:14:04,276 - clarity_scraper.py - get_consultant_data - DEBUG - name='Marko - WhiteBoard Finance'
+2023-08-09 10:14:04,277 - clarity_scraper.py - get_consultant_data - DEBUG - location='Cleveland, Ohio'
+2023-08-09 10:14:04,525 - clarity_scraper.py - get_consultant_data - DEBUG - name='Tyler Wagner'
+2023-08-09 10:14:04,525 - clarity_scraper.py - get_consultant_data - DEBUG - location='Miami Beach, FL'
+2023-08-09 10:14:04,814 - clarity_scraper.py - get_consultant_data - DEBUG - name='Stuart MacDonald'
+2023-08-09 10:14:04,815 - clarity_scraper.py - get_consultant_data - DEBUG - location='Toronto, Canada'
+2023-08-09 10:14:05,073 - clarity_scraper.py - get_consultant_data - DEBUG - name='Montina Young Fraiser, Founder'
+2023-08-09 10:14:05,073 - clarity_scraper.py - get_consultant_data - DEBUG - location='Atlanta, Georgia'
+2023-08-09 10:14:05,111 - clarity_scraper.py - get_consultant_data - DEBUG - name='Jeff Solomon'
+2023-08-09 10:14:05,111 - clarity_scraper.py - get_consultant_data - DEBUG - location='Greater Los Angeles Area'
+2023-08-09 10:14:08,091 - clarity_scraper.py - get_consultant_data - DEBUG - name='Tony DiNitto'
+2023-08-09 10:14:08,091 - clarity_scraper.py - get_consultant_data - DEBUG - location='Raleigh, NC'
+2023-08-09 10:14:08,314 - clarity_scraper.py - get_consultant_data - DEBUG - name='Ryan Rutan'
+2023-08-09 10:14:08,315 - clarity_scraper.py - get_consultant_data - DEBUG - location='Antigua, Guatemala'
+2023-08-09 10:14:08,320 - clarity_scraper.py - get_consultant_data - DEBUG - name='Tom Williams'
+2023-08-09 10:14:08,321 - clarity_scraper.py - get_consultant_data - DEBUG - location='San Francisco, California'
+2023-08-09 10:14:08,615 - clarity_scraper.py - get_consultant_data - DEBUG - name='Mike Moyer'
+2023-08-09 10:14:08,616 - clarity_scraper.py - get_consultant_data - DEBUG - location='Greater Chicago Area'
+2023-08-09 10:14:08,729 - clarity_scraper.py - get_consultant_data - DEBUG - name='Dan Martell'
+2023-08-09 10:14:08,730 - clarity_scraper.py - get_consultant_data - DEBUG - location='Moncton, NB, Canada'
+2023-08-09 10:14:33,786 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:14:35,974 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/montinaportis'
+2023-08-09 10:14:36,246 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/justmontina'
+2023-08-09 10:14:37,821 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='188'
+2023-08-09 10:14:37,821 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Montina Young Fraiser, Founder', 'location': 'Atlanta, Georgia', 'price': '5', 'linkedin': 'http://www.linkedin.com/in/montinaportis', 'twitter': 'http://twitter.com/justmontina', 'rating': 5, 'reviews': '188'}
+2023-08-09 10:14:44,219 - clarity_scraper.py - get_consultant_data - DEBUG - price='8.33'
+2023-08-09 10:14:44,946 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:14:46,116 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:14:48,236 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='123'
+2023-08-09 10:14:48,236 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Marko - WhiteBoard Finance', 'location': 'Cleveland, Ohio', 'price': '8.33', 'linkedin': None, 'twitter': None, 'rating': 5, 'reviews': '123'}
+2023-08-09 10:14:49,231 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:14:49,874 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:14:49,952 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/sersolly'
+2023-08-09 10:14:50,673 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:14:51,580 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/stumacdonald'
+2023-08-09 10:14:51,996 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/stuartma'
+2023-08-09 10:14:52,030 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='402'
+2023-08-09 10:14:52,030 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Jeff Solomon', 'location': 'Greater Los Angeles Area', 'price': '5', 'linkedin': None, 'twitter': 'http://twitter.com/sersolly', 'rating': 5, 'reviews': '402'}
+2023-08-09 10:14:53,051 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='181'
+2023-08-09 10:14:53,051 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Stuart MacDonald', 'location': 'Toronto, Canada', 'price': '5', 'linkedin': 'http://www.linkedin.com/in/stumacdonald', 'twitter': 'http://twitter.com/stuartma', 'rating': 5, 'reviews': '181'}
+2023-08-09 10:14:54,265 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:14:54,688 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/pub/tony-dinitto/63/38a/111'
+2023-08-09 10:14:54,890 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:14:56,064 - clarity_scraper.py - get_consultant_data - DEBUG - price='16.67'
+2023-08-09 10:14:56,073 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='289'
+2023-08-09 10:14:56,073 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Tony DiNitto', 'location': 'Raleigh, NC', 'price': '5', 'linkedin': 'https://www.linkedin.com/pub/tony-dinitto/63/38a/111', 'twitter': None, 'rating': 5, 'reviews': '289'}
+2023-08-09 10:14:57,198 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/tylerbwagner'
+2023-08-09 10:14:57,214 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:14:57,623 - clarity_scraper.py - get_consultant_data - DEBUG - name='Justin Winter'
+2023-08-09 10:14:57,623 - clarity_scraper.py - get_consultant_data - DEBUG - location='Durham, NC'
+2023-08-09 10:14:57,662 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='95'
+2023-08-09 10:14:57,663 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Tyler Wagner', 'location': 'Miami Beach, FL', 'price': '16.67', 'linkedin': 'http://www.linkedin.com/in/tylerbwagner', 'twitter': None, 'rating': 5, 'reviews': '95'}
+2023-08-09 10:15:09,370 - clarity_scraper.py - get_consultant_data - DEBUG - name='Roy Morejon - Kickstarter, Crowdfunding, Launch Expert'
+2023-08-09 10:15:09,371 - clarity_scraper.py - get_consultant_data - DEBUG - location='Charlotte,NC'
+2023-08-09 10:15:09,733 - clarity_scraper.py - get_consultant_data - DEBUG - price='6.67'
+2023-08-09 10:15:09,854 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/ryanarutan'
+2023-08-09 10:15:09,883 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/ryanarutan'
+2023-08-09 10:15:09,998 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='212'
+2023-08-09 10:15:09,998 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Ryan Rutan', 'location': 'Antigua, Guatemala', 'price': '6.67', 'linkedin': 'https://www.linkedin.com/in/ryanarutan', 'twitter': 'http://twitter.com/ryanarutan', 'rating': 5, 'reviews': '212'}
+2023-08-09 10:15:19,978 - clarity_scraper.py - get_consultant_data - DEBUG - price='2.92'
+2023-08-09 10:15:20,112 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/mikemoyer'
+2023-08-09 10:15:20,140 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/SlicingPie'
+2023-08-09 10:15:20,251 - clarity_scraper.py - get_consultant_data - DEBUG - price='83.33'
+2023-08-09 10:15:20,295 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='562'
+2023-08-09 10:15:20,295 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Mike Moyer', 'location': 'Greater Chicago Area', 'price': '2.92', 'linkedin': 'https://www.linkedin.com/in/mikemoyer', 'twitter': 'http://twitter.com/SlicingPie', 'rating': 5, 'reviews': '562'}
+2023-08-09 10:15:20,373 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:15:20,384 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:15:20,505 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='356'
+2023-08-09 10:15:20,505 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Dan Martell', 'location': 'Moncton, NB, Canada', 'price': '83.33', 'linkedin': None, 'twitter': None, 'rating': 5, 'reviews': '356'}
+2023-08-09 10:15:21,163 - clarity_scraper.py - get_consultant_data - DEBUG - name='Jason Cohen'
+2023-08-09 10:15:21,164 - clarity_scraper.py - get_consultant_data - DEBUG - location='Austin, Texas Area'
+2023-08-09 10:15:23,104 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:15:26,394 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:15:26,420 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/tomwilliams'
+2023-08-09 10:15:26,519 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='576'
+2023-08-09 10:15:26,519 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Tom Williams', 'location': 'San Francisco, California', 'price': None, 'linkedin': None, 'twitter': 'http://twitter.com/tomwilliams', 'rating': 5, 'reviews': '576'}
+2023-08-09 10:15:27,287 - clarity_scraper.py - get_consultant_data - DEBUG - name='Tyler Crowley'
+2023-08-09 10:15:27,287 - clarity_scraper.py - get_consultant_data - DEBUG - location='Los Angeles, California'
+2023-08-09 10:15:44,267 - clarity_scraper.py - get_consultant_data - DEBUG - name='Andrew Tjernlund - $50MM/Yr Amazon Vendor and Seller Central Expert'
+2023-08-09 10:15:44,267 - clarity_scraper.py - get_consultant_data - DEBUG - location='Minneapolis, MN'
+2023-08-09 10:15:44,344 - clarity_scraper.py - get_consultant_data - DEBUG - name='Shishir Gupta'
+2023-08-09 10:15:44,344 - clarity_scraper.py - get_consultant_data - DEBUG - location='San Francisco, CA'
+2023-08-09 10:15:44,441 - clarity_scraper.py - get_consultant_data - DEBUG - name='Lee von Kraus'
+2023-08-09 10:15:44,441 - clarity_scraper.py - get_consultant_data - DEBUG - location='Brooklyn, NY'
+2023-08-09 10:15:49,911 - clarity_scraper.py - get_consultant_data - DEBUG - name='Rodrigo Martinez'
+2023-08-09 10:15:49,912 - clarity_scraper.py - get_consultant_data - DEBUG - location='Worldwide '
+2023-08-09 10:16:01,102 - clarity_scraper.py - get_consultant_data - DEBUG - name='Matthew Meltzer'
+2023-08-09 10:16:01,103 - clarity_scraper.py - get_consultant_data - DEBUG - location='Greater Chicago Area'
+2023-08-09 10:16:06,334 - clarity_scraper.py - get_consultant_data - DEBUG - name='John Ramey'
+2023-08-09 10:16:06,334 - clarity_scraper.py - get_consultant_data - DEBUG - location='Boulder, CO'
+2023-08-09 10:16:07,614 - clarity_scraper.py - get_consultant_data - DEBUG - price='4.17'
+2023-08-09 10:16:08,154 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/justincwinter'
+2023-08-09 10:16:08,236 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/jcwinter'
+2023-08-09 10:16:08,652 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='158'
+2023-08-09 10:16:08,652 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Justin Winter', 'location': 'Durham, NC', 'price': '4.17', 'linkedin': 'https://www.linkedin.com/in/justincwinter', 'twitter': 'http://twitter.com/jcwinter', 'rating': 5, 'reviews': '158'}
+2023-08-09 10:16:19,454 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:16:19,666 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:16:19,714 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/asmartbear'
+2023-08-09 10:16:19,882 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='84'
+2023-08-09 10:16:19,882 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Jason Cohen', 'location': 'Austin, Texas Area', 'price': '5', 'linkedin': None, 'twitter': 'http://twitter.com/asmartbear', 'rating': 5, 'reviews': '84'}
+2023-08-09 10:16:25,281 - clarity_scraper.py - get_consultant_data - DEBUG - price='2.50'
+2023-08-09 10:16:25,478 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/tylercrowley'
+2023-08-09 10:16:25,517 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/steepdecline'
+2023-08-09 10:16:25,812 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='68'
+2023-08-09 10:16:25,813 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Tyler Crowley', 'location': 'Los Angeles, California', 'price': '2.50', 'linkedin': 'http://www.linkedin.com/in/tylercrowley', 'twitter': 'http://twitter.com/steepdecline', 'rating': 5, 'reviews': '68'}
+2023-08-09 10:16:32,903 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:16:33,208 - clarity_scraper.py - get_consultant_data - DEBUG - name='Dave Sifry'
+2023-08-09 10:16:33,208 - clarity_scraper.py - get_consultant_data - DEBUG - location='San Francisco Bay Area'
+2023-08-09 10:16:34,834 - clarity_scraper.py - get_consultant_data - DEBUG - price='8.33'
+2023-08-09 10:16:35,101 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/roymorejon'
+2023-08-09 10:16:35,162 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/RoyMorejon'
+2023-08-09 10:16:35,276 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/shishir-gupta'
+2023-08-09 10:16:35,344 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/shishirmba'
+2023-08-09 10:16:35,374 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='74'
+2023-08-09 10:16:35,374 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Roy Morejon - Kickstarter, Crowdfunding, Launch Expert', 'location': 'Charlotte,NC', 'price': '8.33', 'linkedin': 'https://www.linkedin.com/in/roymorejon', 'twitter': 'http://twitter.com/RoyMorejon', 'rating': 5, 'reviews': '74'}
+2023-08-09 10:16:35,561 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='74'
+2023-08-09 10:16:35,561 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Shishir Gupta', 'location': 'San Francisco, CA', 'price': None, 'linkedin': 'https://www.linkedin.com/in/shishir-gupta', 'twitter': 'http://twitter.com/shishirmba', 'rating': 5, 'reviews': '74'}
+2023-08-09 10:16:55,001 - clarity_scraper.py - get_consultant_data - DEBUG - name='Drew Meyers'
+2023-08-09 10:16:55,001 - clarity_scraper.py - get_consultant_data - DEBUG - location='Seattle, WA'
+2023-08-09 10:17:05,028 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:17:11,584 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:17:11,680 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/rmentrepreneur'
+2023-08-09 10:17:11,703 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/RMexitcoach'
+2023-08-09 10:17:11,839 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='64'
+2023-08-09 10:17:11,839 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Rodrigo Martinez', 'location': 'Worldwide ', 'price': '5', 'linkedin': 'https://www.linkedin.com/in/rmentrepreneur', 'twitter': 'http://twitter.com/RMexitcoach', 'rating': 5, 'reviews': '64'}
+2023-08-09 10:17:13,102 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:17:21,099 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:17:21,502 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:17:25,260 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:17:25,260 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:17:32,910 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/johnramey'
+2023-08-09 10:17:32,949 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/jpramey'
+2023-08-09 10:17:33,070 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='81'
+2023-08-09 10:17:33,070 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'John Ramey', 'location': 'Boulder, CO', 'price': None, 'linkedin': 'https://www.linkedin.com/in/johnramey', 'twitter': 'http://twitter.com/jpramey', 'rating': 5, 'reviews': '81'}
+2023-08-09 10:17:41,308 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:17:41,308 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:17:41,619 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:17:41,619 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:17:45,437 - clarity_scraper.py - get_consultant_data - DEBUG - rating=None | reviews=None
+2023-08-09 10:17:45,437 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Lee von Kraus', 'location': 'Brooklyn, NY', 'price': None, 'linkedin': None, 'twitter': None, 'rating': None, 'reviews': None}
+2023-08-09 10:17:46,877 - clarity_scraper.py - get_consultant_data - DEBUG - name='Pez Elias - Amazon FBA Expert & Multichannel Online Retail eCommerce Consultant - Founder of 7-Figure Online Business'
+2023-08-09 10:17:46,878 - clarity_scraper.py - get_consultant_data - DEBUG - location='Los Angeles, CA'
+2023-08-09 10:18:01,086 - clarity_scraper.py - get_consultant_data - DEBUG - price='16.67'
+2023-08-09 10:18:01,212 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/dsifry'
+2023-08-09 10:18:01,303 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/dsifry'
+2023-08-09 10:18:01,395 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='61'
+2023-08-09 10:18:01,395 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Dave Sifry', 'location': 'San Francisco Bay Area', 'price': '16.67', 'linkedin': 'https://www.linkedin.com/in/dsifry', 'twitter': 'http://twitter.com/dsifry', 'rating': 5, 'reviews': '61'}
+2023-08-09 10:18:01,419 - clarity_scraper.py - get_consultant_data - DEBUG - rating=None | reviews=None
+2023-08-09 10:18:01,420 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Matthew Meltzer', 'location': 'Greater Chicago Area', 'price': None, 'linkedin': None, 'twitter': None, 'rating': None, 'reviews': None}
+2023-08-09 10:18:01,756 - clarity_scraper.py - get_consultant_data - DEBUG - rating=None | reviews=None
+2023-08-09 10:18:01,756 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Andrew Tjernlund - $50MM/Yr Amazon Vendor and Seller Central Expert', 'location': 'Minneapolis, MN', 'price': None, 'linkedin': None, 'twitter': None, 'rating': None, 'reviews': None}
+2023-08-09 10:18:06,180 - clarity_scraper.py - get_consultant_data - DEBUG - name='Louis Coniglio'
+2023-08-09 10:18:06,180 - clarity_scraper.py - get_consultant_data - DEBUG - location='Edison, NJ'
+2023-08-09 10:18:08,357 - clarity_scraper.py - get_consultant_data - DEBUG - name='Roberto Candelaria'
+2023-08-09 10:18:08,357 - clarity_scraper.py - get_consultant_data - DEBUG - location='Austin, Texas'
+2023-08-09 10:18:12,408 - clarity_scraper.py - get_consultant_data - DEBUG - name='Dr. Sean Wise'
+2023-08-09 10:18:12,408 - clarity_scraper.py - get_consultant_data - DEBUG - location='Toronto, Canada Area'
+2023-08-09 10:18:12,794 - clarity_scraper.py - get_consultant_data - DEBUG - name='Jason Leo Carvalho'
+2023-08-09 10:18:12,794 - clarity_scraper.py - get_consultant_data - DEBUG - location='Toronto, Ontario'
+2023-08-09 10:18:18,297 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:18:18,530 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/drewmeyers'
+2023-08-09 10:18:18,561 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/drewmeyers'
+2023-08-09 10:18:18,672 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='42'
+2023-08-09 10:18:18,673 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Drew Meyers', 'location': 'Seattle, WA', 'price': None, 'linkedin': 'https://www.linkedin.com/in/drewmeyers', 'twitter': 'http://twitter.com/drewmeyers', 'rating': 5, 'reviews': '42'}
+2023-08-09 10:18:19,710 - clarity_scraper.py - get_consultant_data - DEBUG - name='Justin Rogers'
+2023-08-09 10:18:19,710 - clarity_scraper.py - get_consultant_data - DEBUG - location='Baton Rouge, LA'
+2023-08-09 10:19:07,820 - clarity_scraper.py - get_consultant_data - DEBUG - name='Bob Schwartz'
+2023-08-09 10:19:07,821 - clarity_scraper.py - get_consultant_data - DEBUG - location='Greater Los Angeles Area'
+2023-08-09 10:19:10,647 - clarity_scraper.py - get_consultant_data - DEBUG - name='Jeremy Potvin'
+2023-08-09 10:19:10,647 - clarity_scraper.py - get_consultant_data - DEBUG - location='Toronto, Ontario'
+2023-08-09 10:19:11,837 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:19:15,492 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:19:18,883 - clarity_scraper.py - get_consultant_data - DEBUG - name='John Doherty'
+2023-08-09 10:19:18,884 - clarity_scraper.py - get_consultant_data - DEBUG - location='Denver, Colorado'
+2023-08-09 10:19:31,921 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:19:31,922 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:19:32,565 - clarity_scraper.py - get_consultant_data - DEBUG - price='16.67'
+2023-08-09 10:19:32,713 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/robertoccandelaria'
+2023-08-09 10:19:32,744 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/robertoteaches'
+2023-08-09 10:19:32,861 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='62'
+2023-08-09 10:19:32,863 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Roberto Candelaria', 'location': 'Austin, Texas', 'price': '16.67', 'linkedin': 'http://www.linkedin.com/in/robertoccandelaria', 'twitter': 'http://twitter.com/robertoteaches', 'rating': 5, 'reviews': '62'}
+2023-08-09 10:19:35,789 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:19:35,789 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:19:42,878 - clarity_scraper.py - get_consultant_data - DEBUG - name='Cheryl (Yeoh) Sew Hoy'
+2023-08-09 10:19:42,878 - clarity_scraper.py - get_consultant_data - DEBUG - location='Austin, TX'
+2023-08-09 10:19:52,345 - clarity_scraper.py - get_consultant_data - DEBUG - rating=None | reviews=None
+2023-08-09 10:19:52,345 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Dr. Sean Wise', 'location': 'Toronto, Canada Area', 'price': None, 'linkedin': None, 'twitter': None, 'rating': None, 'reviews': None}
+2023-08-09 10:19:56,277 - clarity_scraper.py - get_consultant_data - DEBUG - rating=None | reviews=None
+2023-08-09 10:19:56,277 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Pez Elias - Amazon FBA Expert & Multichannel Online Retail eCommerce Consultant - Founder of 7-Figure Online Business', 'location': 'Los Angeles, CA', 'price': None, 'linkedin': None, 'twitter': None, 'rating': None, 'reviews': None}
+2023-08-09 10:20:01,561 - clarity_scraper.py - get_consultant_data - DEBUG - price='16.67'
+2023-08-09 10:20:01,670 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/johnfdoherty'
+2023-08-09 10:20:01,702 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/dohertyjf'
+2023-08-09 10:20:01,800 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='42'
+2023-08-09 10:20:01,800 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'John Doherty', 'location': 'Denver, Colorado', 'price': '16.67', 'linkedin': 'https://www.linkedin.com/in/johnfdoherty', 'twitter': 'http://twitter.com/dohertyjf', 'rating': 5, 'reviews': '42'}
+2023-08-09 10:20:08,405 - clarity_scraper.py - get_consultant_data - DEBUG - price='3.33'
+2023-08-09 10:20:08,567 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:20:08,586 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:20:08,723 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='51'
+2023-08-09 10:20:08,724 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Justin Rogers', 'location': 'Baton Rouge, LA', 'price': '3.33', 'linkedin': None, 'twitter': None, 'rating': 5, 'reviews': '51'}
+2023-08-09 10:20:18,738 - clarity_scraper.py - get_consultant_data - DEBUG - name='Will Irish'
+2023-08-09 10:20:18,739 - clarity_scraper.py - get_consultant_data - DEBUG - location='Washington D.C.'
+2023-08-09 10:20:29,502 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:20:29,503 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:20:29,503 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:20:29,503 - clarity_scraper.py - get_consultant_data - DEBUG - rating=None | reviews=None
+2023-08-09 10:20:29,503 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Jeremy Potvin', 'location': 'Toronto, Ontario', 'price': None, 'linkedin': None, 'twitter': None, 'rating': None, 'reviews': None}
+2023-08-09 10:20:29,573 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:20:29,573 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:20:29,573 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:20:29,573 - clarity_scraper.py - get_consultant_data - DEBUG - rating=None | reviews=None
+2023-08-09 10:20:29,573 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Will Irish', 'location': 'Washington D.C.', 'price': None, 'linkedin': None, 'twitter': None, 'rating': None, 'reviews': None}
+2023-08-09 10:20:29,609 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+k=None
+2023-08-09 10:20:29,610 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:20:29,620 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:20:29,636 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:20:45,987 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:20:45,988 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:20:46,003 - clarity_scraper.py - get_consultant_data - DEBUG - rating=None | reviews=None
+2023-08-09 10:20:46,003 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Cheryl (Yeoh) Sew Hoy', 'location': 'Austin, TX', 'price': None, 'linkedin': None, 'twitter': None, 'rating': None, 'reviews': None}
+2023-08-09 10:20:46,032 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:20:46,033 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:20:46,048 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:20:46,049 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:20:49,712 - clarity_scraper.py - get_consultant_data - DEBUG - name='Peter Pham'
+2023-08-09 10:20:49,712 - clarity_scraper.py - get_consultant_data - DEBUG - location='California'
+2023-08-09 10:20:52,286 - clarity_scraper.py - get_consultant_data - DEBUG - name='Linda Dominique Grosvenor-Holland'
+2023-08-09 10:20:52,287 - clarity_scraper.py - get_consultant_data - DEBUG - location='Moyock, North Carolina'
+2023-08-09 10:30:19,541 - clarity_scraper.py - get_all_consultant_data_for_all_topics - DEBUG - topic='entrepreneurship'
+2023-08-09 10:30:19,542 - clarity_scraper.py - get_all_consultant_data_for_all_topics - DEBUG - topic 0 of 161
+2023-08-09 10:30:19,542 - clarity_scraper.py - get_all_consultant_data_for_all_topics - DEBUG - # to scrape: 1500
+2023-08-09 10:30:19,542 - clarity_scraper.py - get_all_consultant_data_for_all_topics - DEBUG - # already scraped: 0
+2023-08-09 10:30:27,219 - clarity_scraper.py - get_consultant_data - DEBUG - name='Jeff Solomon'
+2023-08-09 10:30:27,219 - clarity_scraper.py - get_consultant_data - DEBUG - location='Greater Los Angeles Area'
+2023-08-09 10:30:27,622 - clarity_scraper.py - get_consultant_data - DEBUG - name='Mike Moyer'
+2023-08-09 10:30:27,622 - clarity_scraper.py - get_consultant_data - DEBUG - location='Greater Chicago Area'
+2023-08-09 10:30:27,735 - clarity_scraper.py - get_consultant_data - DEBUG - name='Dan Martell'
+2023-08-09 10:30:27,735 - clarity_scraper.py - get_consultant_data - DEBUG - location='Moncton, NB, Canada'
+2023-08-09 10:30:28,671 - clarity_scraper.py - get_consultant_data - DEBUG - name='Tony DiNitto'
+2023-08-09 10:30:28,671 - clarity_scraper.py - get_consultant_data - DEBUG - location='Raleigh, NC'
+2023-08-09 10:30:28,962 - clarity_scraper.py - get_consultant_data - DEBUG - name='Tom Williams'
+2023-08-09 10:30:28,962 - clarity_scraper.py - get_consultant_data - DEBUG - location='San Francisco, California'
+2023-08-09 10:31:01,053 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:31:01,158 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:31:01,194 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/sersolly'
+2023-08-09 10:31:01,313 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='402'
+2023-08-09 10:31:01,313 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Jeff Solomon', 'location': 'Greater Los Angeles Area', 'price': '5', 'linkedin': None, 'twitter': 'http://twitter.com/sersolly', 'rating': 5, 'reviews': '402'}
+2023-08-09 10:31:10,030 - clarity_scraper.py - get_consultant_data - DEBUG - price='16.67'
+2023-08-09 10:31:10,159 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:31:10,185 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/tomwilliams'
+2023-08-09 10:31:10,323 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='576'
+2023-08-09 10:31:10,324 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Tom Williams', 'location': 'San Francisco, California', 'price': '16.67', 'linkedin': None, 'twitter': 'http://twitter.com/tomwilliams', 'rating': 5, 'reviews': '576'}
+2023-08-09 10:31:11,802 - clarity_scraper.py - get_consultant_data - DEBUG - name='Ryan Rutan'
+2023-08-09 10:31:11,802 - clarity_scraper.py - get_consultant_data - DEBUG - location='Antigua, Guatemala'
+2023-08-09 10:31:13,051 - clarity_scraper.py - get_consultant_data - DEBUG - price='2.92'
+2023-08-09 10:31:13,159 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/mikemoyer'
+2023-08-09 10:31:13,185 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/SlicingPie'
+2023-08-09 10:31:13,294 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='562'
+2023-08-09 10:31:13,294 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Mike Moyer', 'location': 'Greater Chicago Area', 'price': '2.92', 'linkedin': 'https://www.linkedin.com/in/mikemoyer', 'twitter': 'http://twitter.com/SlicingPie', 'rating': 5, 'reviews': '562'}
+2023-08-09 10:31:17,066 - clarity_scraper.py - get_consultant_data - DEBUG - price='83.33'
+2023-08-09 10:31:17,151 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:31:17,162 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:31:17,236 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='356'
+2023-08-09 10:31:17,236 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Dan Martell', 'location': 'Moncton, NB, Canada', 'price': '83.33', 'linkedin': None, 'twitter': None, 'rating': 5, 'reviews': '356'}
+2023-08-09 10:31:17,904 - clarity_scraper.py - get_consultant_data - DEBUG - name='Tyler Wagner'
+2023-08-09 10:31:17,905 - clarity_scraper.py - get_consultant_data - DEBUG - location='Miami Beach, FL'
+2023-08-09 10:31:20,779 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:31:20,869 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/pub/tony-dinitto/63/38a/111'
+2023-08-09 10:31:20,884 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:31:20,964 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='289'
+2023-08-09 10:31:20,966 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Tony DiNitto', 'location': 'Raleigh, NC', 'price': '5', 'linkedin': 'https://www.linkedin.com/pub/tony-dinitto/63/38a/111', 'twitter': None, 'rating': 5, 'reviews': '289'}
+2023-08-09 10:31:33,460 - clarity_scraper.py - get_consultant_data - DEBUG - name='Montina Young Fraiser, Founder'
+2023-08-09 10:31:33,461 - clarity_scraper.py - get_consultant_data - DEBUG - location='Atlanta, Georgia'
+2023-08-09 10:31:39,285 - clarity_scraper.py - get_consultant_data - DEBUG - name='Stuart MacDonald'
+2023-08-09 10:31:39,286 - clarity_scraper.py - get_consultant_data - DEBUG - location='Toronto, Canada'
+2023-08-09 10:31:41,121 - clarity_scraper.py - get_consultant_data - DEBUG - name='Marko - WhiteBoard Finance'
+2023-08-09 10:31:41,122 - clarity_scraper.py - get_consultant_data - DEBUG - location='Cleveland, Ohio'
+2023-08-09 10:32:07,546 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:32:07,642 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/montinaportis'
+2023-08-09 10:32:07,672 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/justmontina'
+2023-08-09 10:32:07,757 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='188'
+2023-08-09 10:32:07,757 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Montina Young Fraiser, Founder', 'location': 'Atlanta, Georgia', 'price': '5', 'linkedin': 'http://www.linkedin.com/in/montinaportis', 'twitter': 'http://twitter.com/justmontina', 'rating': 5, 'reviews': '188'}
+2023-08-09 10:32:08,361 - clarity_scraper.py - get_consultant_data - DEBUG - price='16.67'
+2023-08-09 10:32:08,468 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/tylerbwagner'
+2023-08-09 10:32:08,480 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:32:08,603 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='95'
+2023-08-09 10:32:08,603 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Tyler Wagner', 'location': 'Miami Beach, FL', 'price': '16.67', 'linkedin': 'http://www.linkedin.com/in/tylerbwagner', 'twitter': None, 'rating': 5, 'reviews': '95'}
+2023-08-09 10:32:14,942 - clarity_scraper.py - get_consultant_data - DEBUG - price='8.33'
+2023-08-09 10:32:15,026 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:32:15,041 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:32:15,132 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='123'
+2023-08-09 10:32:15,132 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Marko - WhiteBoard Finance', 'location': 'Cleveland, Ohio', 'price': '8.33', 'linkedin': None, 'twitter': None, 'rating': 5, 'reviews': '123'}
+2023-08-09 10:32:19,907 - clarity_scraper.py - get_consultant_data - DEBUG - name='Justin Winter'
+2023-08-09 10:32:19,908 - clarity_scraper.py - get_consultant_data - DEBUG - location='Durham, NC'
+2023-08-09 10:32:25,069 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:32:25,201 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/stumacdonald'
+2023-08-09 10:32:25,231 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/stuartma'
+2023-08-09 10:32:25,320 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='181'
+2023-08-09 10:32:25,320 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Stuart MacDonald', 'location': 'Toronto, Canada', 'price': '5', 'linkedin': 'http://www.linkedin.com/in/stumacdonald', 'twitter': 'http://twitter.com/stuartma', 'rating': 5, 'reviews': '181'}
+2023-08-09 10:32:25,999 - clarity_scraper.py - get_consultant_data - DEBUG - name='Lee von Kraus'
+2023-08-09 10:32:26,000 - clarity_scraper.py - get_consultant_data - DEBUG - location='Brooklyn, NY'
+2023-08-09 10:32:31,948 - clarity_scraper.py - get_consultant_data - DEBUG - price='6.67'
+2023-08-09 10:32:32,109 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/ryanarutan'
+2023-08-09 10:32:32,138 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/ryanarutan'
+2023-08-09 10:32:32,262 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='212'
+2023-08-09 10:32:32,262 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Ryan Rutan', 'location': 'Antigua, Guatemala', 'price': '6.67', 'linkedin': 'https://www.linkedin.com/in/ryanarutan', 'twitter': 'http://twitter.com/ryanarutan', 'rating': 5, 'reviews': '212'}
+2023-08-09 10:32:35,019 - clarity_scraper.py - get_consultant_data - DEBUG - name='Roy Morejon - Kickstarter, Crowdfunding, Launch Expert'
+2023-08-09 10:32:35,020 - clarity_scraper.py - get_consultant_data - DEBUG - location='Charlotte,NC'
+2023-08-09 10:32:41,805 - clarity_scraper.py - get_consultant_data - DEBUG - price='4.17'
+2023-08-09 10:32:41,891 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/justincwinter'
+2023-08-09 10:32:41,912 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/jcwinter'
+2023-08-09 10:32:42,019 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='158'
+2023-08-09 10:32:42,019 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Justin Winter', 'location': 'Durham, NC', 'price': '4.17', 'linkedin': 'https://www.linkedin.com/in/justincwinter', 'twitter': 'http://twitter.com/jcwinter', 'rating': 5, 'reviews': '158'}
+2023-08-09 10:32:45,669 - clarity_scraper.py - get_consultant_data - DEBUG - name='John Ramey'
+2023-08-09 10:32:45,669 - clarity_scraper.py - get_consultant_data - DEBUG - location='Boulder, CO'
+2023-08-09 10:32:54,443 - clarity_scraper.py - get_consultant_data - DEBUG - price='16.67'
+2023-08-09 10:32:54,527 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:32:54,527 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:32:54,590 - clarity_scraper.py - get_consultant_data - DEBUG - name='Shishir Gupta'
+2023-08-09 10:32:54,592 - clarity_scraper.py - get_consultant_data - DEBUG - location='San Francisco, CA'
+2023-08-09 10:32:54,612 - clarity_scraper.py - get_consultant_data - DEBUG - name='Andrew Tjernlund - $50MM/Yr Amazon Vendor and Seller Central Expert'
+2023-08-09 10:32:54,613 - clarity_scraper.py - get_consultant_data - DEBUG - location='Minneapolis, MN'
+2023-08-09 10:32:54,722 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='122'
+2023-08-09 10:32:54,722 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Lee von Kraus', 'location': 'Brooklyn, NY', 'price': '16.67', 'linkedin': None, 'twitter': None, 'rating': 5, 'reviews': '122'}
+2023-08-09 10:33:05,611 - clarity_scraper.py - get_consultant_data - DEBUG - name='Jason Cohen'
+2023-08-09 10:33:05,623 - clarity_scraper.py - get_consultant_data - DEBUG - location='Austin, Texas Area'
+2023-08-09 10:33:22,552 - clarity_scraper.py - get_consultant_data - DEBUG - price='8.33'
+2023-08-09 10:33:22,672 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/roymorejon'
+2023-08-09 10:33:22,729 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/RoyMorejon'
+2023-08-09 10:33:22,993 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='74'
+2023-08-09 10:33:22,993 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Roy Morejon - Kickstarter, Crowdfunding, Launch Expert', 'location': 'Charlotte,NC', 'price': '8.33', 'linkedin': 'https://www.linkedin.com/in/roymorejon', 'twitter': 'http://twitter.com/RoyMorejon', 'rating': 5, 'reviews': '74'}
+2023-08-09 10:33:27,082 - clarity_scraper.py - get_consultant_data - DEBUG - price='6.67'
+2023-08-09 10:33:27,191 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/johnramey'
+2023-08-09 10:33:27,226 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/jpramey'
+2023-08-09 10:33:27,330 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='81'
+2023-08-09 10:33:27,330 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'John Ramey', 'location': 'Boulder, CO', 'price': '6.67', 'linkedin': 'https://www.linkedin.com/in/johnramey', 'twitter': 'http://twitter.com/jpramey', 'rating': 5, 'reviews': '81'}
+2023-08-09 10:33:39,469 - clarity_scraper.py - get_consultant_data - DEBUG - name='Matthew Meltzer'
+2023-08-09 10:33:39,469 - clarity_scraper.py - get_consultant_data - DEBUG - location='Greater Chicago Area'
+2023-08-09 10:33:47,605 - clarity_scraper.py - get_consultant_data - DEBUG - price='2.50'
+2023-08-09 10:33:47,713 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/shishir-gupta'
+2023-08-09 10:33:47,738 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/shishirmba'
+2023-08-09 10:33:47,839 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='74'
+2023-08-09 10:33:47,839 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Shishir Gupta', 'location': 'San Francisco, CA', 'price': '2.50', 'linkedin': 'https://www.linkedin.com/in/shishir-gupta', 'twitter': 'http://twitter.com/shishirmba', 'rating': 5, 'reviews': '74'}
+2023-08-09 10:33:54,314 - clarity_scraper.py - get_consultant_data - DEBUG - name='Tyler Crowley'
+2023-08-09 10:33:54,314 - clarity_scraper.py - get_consultant_data - DEBUG - location='Los Angeles, California'
+2023-08-09 10:33:55,256 - clarity_scraper.py - get_consultant_data - DEBUG - price='16.67'
+2023-08-09 10:33:55,358 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/pub/andrew-tjernlund/7/97b/b46'
+2023-08-09 10:33:55,378 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/AmazonAndrew'
+2023-08-09 10:33:55,454 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='97'
+2023-08-09 10:33:55,454 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Andrew Tjernlund - $50MM/Yr Amazon Vendor and Seller Central Expert', 'location': 'Minneapolis, MN', 'price': '16.67', 'linkedin': 'https://www.linkedin.com/pub/andrew-tjernlund/7/97b/b46', 'twitter': 'http://twitter.com/AmazonAndrew', 'rating': 5, 'reviews': '97'}
+2023-08-09 10:33:56,720 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:33:56,835 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:33:56,861 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/asmartbear'
+2023-08-09 10:33:56,939 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='84'
+2023-08-09 10:33:56,939 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Jason Cohen', 'location': 'Austin, Texas Area', 'price': '5', 'linkedin': None, 'twitter': 'http://twitter.com/asmartbear', 'rating': 5, 'reviews': '84'}
+2023-08-09 10:34:56,873 - clarity_scraper.py - get_consultant_data - DEBUG - name='Rodrigo Martinez'
+2023-08-09 10:34:56,874 - clarity_scraper.py - get_consultant_data - DEBUG - location='Worldwide '
+2023-08-09 10:34:57,653 - clarity_scraper.py - get_consultant_data - DEBUG - price='2.50'
+2023-08-09 10:34:57,764 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/tylercrowley'
+2023-08-09 10:34:57,786 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/steepdecline'
+2023-08-09 10:34:57,872 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='68'
+2023-08-09 10:34:57,872 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Tyler Crowley', 'location': 'Los Angeles, California', 'price': '2.50', 'linkedin': 'http://www.linkedin.com/in/tylercrowley', 'twitter': 'http://twitter.com/steepdecline', 'rating': 5, 'reviews': '68'}
+2023-08-09 10:35:05,594 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:35:05,689 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/mmeltzer'
+2023-08-09 10:35:05,701 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:35:05,785 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='60'
+2023-08-09 10:35:05,785 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Matthew Meltzer', 'location': 'Greater Chicago Area', 'price': '5', 'linkedin': 'http://www.linkedin.com/in/mmeltzer', 'twitter': None, 'rating': 5, 'reviews': '60'}
+2023-08-09 10:35:39,625 - clarity_scraper.py - get_consultant_data - DEBUG - name='Dave Sifry'
+2023-08-09 10:35:39,625 - clarity_scraper.py - get_consultant_data - DEBUG - location='San Francisco Bay Area'
+2023-08-09 10:36:16,763 - clarity_scraper.py - get_consultant_data - DEBUG - name='Pez Elias - Amazon FBA Expert & Multichannel Online Retail eCommerce Consultant - Founder of 7-Figure Online Business'
+2023-08-09 10:36:16,763 - clarity_scraper.py - get_consultant_data - DEBUG - location='Los Angeles, CA'
+2023-08-09 10:36:24,353 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:36:35,770 - clarity_scraper.py - get_consultant_data - DEBUG - name='Justin Rogers'
+2023-08-09 10:36:35,770 - clarity_scraper.py - get_consultant_data - DEBUG - location='Baton Rouge, LA'
+2023-08-09 10:36:44,620 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:36:44,620 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:37:04,877 - clarity_scraper.py - get_consultant_data - DEBUG - rating=None | reviews=None
+2023-08-09 10:37:04,877 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Rodrigo Martinez', 'location': 'Worldwide ', 'price': None, 'linkedin': None, 'twitter': None, 'rating': None, 'reviews': None}
+2023-08-09 10:37:08,975 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:37:15,252 - clarity_scraper.py - get_consultant_data - DEBUG - price='3.33'
+2023-08-09 10:37:15,328 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:37:15,340 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:37:15,450 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='51'
+2023-08-09 10:37:15,450 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Justin Rogers', 'location': 'Baton Rouge, LA', 'price': '3.33', 'linkedin': None, 'twitter': None, 'rating': 5, 'reviews': '51'}
+2023-08-09 10:37:18,560 - clarity_scraper.py - get_consultant_data - DEBUG - name='Drew Meyers'
+2023-08-09 10:37:18,561 - clarity_scraper.py - get_consultant_data - DEBUG - location='Seattle, WA'
+2023-08-09 10:37:26,391 - clarity_scraper.py - get_consultant_data - DEBUG - name='Jeremy Potvin'
+2023-08-09 10:37:26,392 - clarity_scraper.py - get_consultant_data - DEBUG - location='Toronto, Ontario'
+2023-08-09 10:37:26,642 - clarity_scraper.py - get_consultant_data - DEBUG - name='Roberto Candelaria'
+2023-08-09 10:37:26,642 - clarity_scraper.py - get_consultant_data - DEBUG - location='Austin, Texas'
+2023-08-09 10:37:27,270 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:37:27,369 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/pezelias'
+2023-08-09 10:37:27,396 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/Pezelias'
+2023-08-09 10:37:27,502 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='44'
+2023-08-09 10:37:27,502 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Pez Elias - Amazon FBA Expert & Multichannel Online Retail eCommerce Consultant - Founder of 7-Figure Online Business', 'location': 'Los Angeles, CA', 'price': '5', 'linkedin': 'https://www.linkedin.com/in/pezelias', 'twitter': 'http://twitter.com/Pezelias', 'rating': 5, 'reviews': '44'}
+2023-08-09 10:37:29,505 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:37:29,506 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:37:35,967 - clarity_scraper.py - get_consultant_data - DEBUG - name='Louis Coniglio'
+2023-08-09 10:37:35,968 - clarity_scraper.py - get_consultant_data - DEBUG - location='Edison, NJ'
+2023-08-09 10:37:50,012 - clarity_scraper.py - get_consultant_data - DEBUG - rating=None | reviews=None
+2023-08-09 10:37:50,012 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Dave Sifry', 'location': 'San Francisco Bay Area', 'price': None, 'linkedin': None, 'twitter': None, 'rating': None, 'reviews': None}
+2023-08-09 10:37:53,826 - clarity_scraper.py - get_consultant_data - DEBUG - price='2.50'
+2023-08-09 10:37:53,995 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/drewmeyers'
+2023-08-09 10:37:54,019 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/drewmeyers'
+2023-08-09 10:37:54,176 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='42'
+2023-08-09 10:37:54,176 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Drew Meyers', 'location': 'Seattle, WA', 'price': '2.50', 'linkedin': 'https://www.linkedin.com/in/drewmeyers', 'twitter': 'http://twitter.com/drewmeyers', 'rating': 5, 'reviews': '42'}
+2023-08-09 10:38:05,042 - clarity_scraper.py - get_consultant_data - DEBUG - name='Dr. Sean Wise'
+2023-08-09 10:38:05,042 - clarity_scraper.py - get_consultant_data - DEBUG - location='Toronto, Canada Area'
+2023-08-09 10:38:05,868 - clarity_scraper.py - get_consultant_data - DEBUG - name='Bob Schwartz'
+2023-08-09 10:38:05,869 - clarity_scraper.py - get_consultant_data - DEBUG - location='Greater Los Angeles Area'
+2023-08-09 10:38:06,163 - clarity_scraper.py - get_consultant_data - DEBUG - price='1.67'
+2023-08-09 10:38:06,323 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/louis-coniglio-44698510b'
+2023-08-09 10:38:06,350 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/DankStop'
+2023-08-09 10:38:06,479 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='46'
+2023-08-09 10:38:06,479 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Louis Coniglio', 'location': 'Edison, NJ', 'price': '1.67', 'linkedin': 'http://www.linkedin.com/in/louis-coniglio-44698510b', 'twitter': 'http://twitter.com/DankStop', 'rating': 5, 'reviews': '46'}
+2023-08-09 10:38:09,158 - clarity_scraper.py - get_consultant_data - DEBUG - price='16.67'
+2023-08-09 10:38:09,299 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/robertoccandelaria'
+2023-08-09 10:38:09,321 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/robertoteaches'
+2023-08-09 10:38:09,416 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='62'
+2023-08-09 10:38:09,416 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Roberto Candelaria', 'location': 'Austin, Texas', 'price': '16.67', 'linkedin': 'http://www.linkedin.com/in/robertoccandelaria', 'twitter': 'http://twitter.com/robertoteaches', 'rating': 5, 'reviews': '62'}
+2023-08-09 10:38:13,723 - clarity_scraper.py - get_consultant_data - DEBUG - name='John Doherty'
+2023-08-09 10:38:13,724 - clarity_scraper.py - get_consultant_data - DEBUG - location='Denver, Colorado'
+2023-08-09 10:38:14,357 - clarity_scraper.py - get_consultant_data - DEBUG - name='Jason Leo Carvalho'
+2023-08-09 10:38:14,357 - clarity_scraper.py - get_consultant_data - DEBUG - location='Toronto, Ontario'
+2023-08-09 10:38:37,131 - clarity_scraper.py - get_consultant_data - DEBUG - price='3.33'
+2023-08-09 10:38:37,231 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/jasoncarvalho'
+2023-08-09 10:38:37,263 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/jasonlcarvalho'
+2023-08-09 10:38:37,517 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='52'
+2023-08-09 10:38:37,517 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Jason Leo Carvalho', 'location': 'Toronto, Ontario', 'price': '3.33', 'linkedin': 'http://www.linkedin.com/in/jasoncarvalho', 'twitter': 'http://twitter.com/jasonlcarvalho', 'rating': 5, 'reviews': '52'}
+2023-08-09 10:38:40,217 - clarity_scraper.py - get_consultant_data - DEBUG - price='16.67'
+2023-08-09 10:38:40,335 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='https://www.linkedin.com/in/johnfdoherty'
+2023-08-09 10:38:40,362 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/dohertyjf'
+2023-08-09 10:38:40,449 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='42'
+2023-08-09 10:38:40,449 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'John Doherty', 'location': 'Denver, Colorado', 'price': '16.67', 'linkedin': 'https://www.linkedin.com/in/johnfdoherty', 'twitter': 'http://twitter.com/dohertyjf', 'rating': 5, 'reviews': '42'}
+2023-08-09 10:38:48,648 - clarity_scraper.py - get_consultant_data - DEBUG - name='WILLIAM SCOTT GOLDMAN'
+2023-08-09 10:38:48,648 - clarity_scraper.py - get_consultant_data - DEBUG - location='Washington, DC'
+2023-08-09 10:38:54,337 - clarity_scraper.py - get_consultant_data - DEBUG - price='4.17'
+2023-08-09 10:38:54,537 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:38:54,562 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/jeremypotvin'
+2023-08-09 10:38:54,662 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='50'
+2023-08-09 10:38:54,662 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Jeremy Potvin', 'location': 'Toronto, Ontario', 'price': '4.17', 'linkedin': None, 'twitter': 'http://twitter.com/jeremypotvin', 'rating': 5, 'reviews': '50'}
+2023-08-09 10:38:57,762 - clarity_scraper.py - get_consultant_data - DEBUG - name='Cheryl (Yeoh) Sew Hoy'
+2023-08-09 10:38:57,763 - clarity_scraper.py - get_consultant_data - DEBUG - location='Austin, TX'
+2023-08-09 10:39:05,183 - clarity_scraper.py - get_consultant_data - DEBUG - name='Mike Scanlin'
+2023-08-09 10:39:05,183 - clarity_scraper.py - get_consultant_data - DEBUG - location='Las Vegas'
+2023-08-09 10:39:07,564 - clarity_scraper.py - get_consultant_data - DEBUG - price='2.50'
+2023-08-09 10:39:07,733 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:39:07,764 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:39:07,989 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='14'
+2023-08-09 10:39:07,989 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'WILLIAM SCOTT GOLDMAN', 'location': 'Washington, DC', 'price': '2.50', 'linkedin': None, 'twitter': None, 'rating': 5, 'reviews': '14'}
+2023-08-09 10:39:17,746 - clarity_scraper.py - get_consultant_data - DEBUG - name='Will Irish'
+2023-08-09 10:39:17,746 - clarity_scraper.py - get_consultant_data - DEBUG - location='Washington D.C.'
+2023-08-09 10:39:23,499 - clarity_scraper.py - get_consultant_data - DEBUG - price='3.33'
+2023-08-09 10:39:23,594 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/mikescanlin'
+2023-08-09 10:39:23,603 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:39:23,721 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='43'
+2023-08-09 10:39:23,721 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Mike Scanlin', 'location': 'Las Vegas', 'price': '3.33', 'linkedin': 'http://www.linkedin.com/in/mikescanlin', 'twitter': None, 'rating': 5, 'reviews': '43'}
+2023-08-09 10:39:24,610 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:39:24,644 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:39:24,644 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:39:24,763 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='50'
+2023-08-09 10:39:24,763 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Dr. Sean Wise', 'location': 'Toronto, Canada Area', 'price': '5', 'linkedin': None, 'twitter': None, 'rating': 5, 'reviews': '50'}
+2023-08-09 10:39:25,063 - clarity_scraper.py - get_consultant_data - DEBUG - price='8.33'
+2023-08-09 10:39:25,233 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link='http://www.linkedin.com/in/schwartz'
+2023-08-09 10:39:25,262 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link='http://twitter.com/BobSchwartz'
+2023-08-09 10:39:25,387 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='54'
+2023-08-09 10:39:25,387 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Bob Schwartz', 'location': 'Greater Los Angeles Area', 'price': '8.33', 'linkedin': 'http://www.linkedin.com/in/schwartz', 'twitter': 'http://twitter.com/BobSchwartz', 'rating': 5, 'reviews': '54'}
+2023-08-09 10:39:31,278 - clarity_scraper.py - get_consultant_data - DEBUG - name='Edmund John'
+2023-08-09 10:39:31,278 - clarity_scraper.py - get_consultant_data - DEBUG - location='Singapore & Hong Kong'
+2023-08-09 10:39:33,556 - clarity_scraper.py - get_consultant_data - DEBUG - name='Josh Isaak'
+2023-08-09 10:39:33,556 - clarity_scraper.py - get_consultant_data - DEBUG - location='Los Angeles'
+2023-08-09 10:39:36,613 - clarity_scraper.py - get_consultant_data - DEBUG - name='Raymond Notario'
+2023-08-09 10:39:36,614 - clarity_scraper.py - get_consultant_data - DEBUG - location='United States'
+2023-08-09 10:39:37,097 - clarity_scraper.py - get_consultant_data - DEBUG - price='5'
+2023-08-09 10:39:37,393 - clarity_scraper.py - get_consultant_data - DEBUG - linkedin_link=None
+2023-08-09 10:39:37,414 - clarity_scraper.py - get_consultant_data - DEBUG - twitter_link=None
+2023-08-09 10:39:37,573 - clarity_scraper.py - get_consultant_data - DEBUG - rating=5 | reviews='59'
+2023-08-09 10:39:37,573 - clarity_scraper.py - get_consultant_data - DEBUG - consultant_data={'name': 'Will Irish', 'location': 'Washington D.C.', 'price': '5', 'linkedin': None, 'twitter': None, 'rating': 5, 'reviews': '59'}
+2023-08-09 10:39:49,081 - clarity_scraper.py - get_consultant_data - DEBUG - name='Kevin Ramani'
+2023-08-09 10:39:49,082 - clarity_scraper.py - get_consultant_data - DEBUG - location='San Francisco Bay Area'
+2023-08-09 10:39:51,809 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:39:51,826 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:39:51,831 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 10:39:51,831 - clarity_scraper.py - get_consultant_data - DEBUG - price=None

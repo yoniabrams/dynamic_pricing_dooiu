@@ -189,6 +189,97 @@ def get_all_consultants_urls(safe_mode=False):
     return all_urls_dict
 
 
+def get_consultant_data_from_html(html_code):
+    """
+    Does the same thing as get_consultant_data, but starts with html code rather than url
+    """
+    consultant_data = dict()
+
+    soup = BeautifulSoup(html_code)
+
+    # get name
+    try:
+        profile_div = soup.find('div', class_='profile')
+        name_header1 = profile_div.find('h1')
+        name = name_header1.text.strip()
+        name = name.encode('ascii', 'ignore').decode('utf-8')  # sometimes the users use emojis
+    except:
+        name = None
+
+    consultant_data['name'] = name
+    logger.debug(f'{name=}')
+
+    # get location:
+    try:
+        profile_div = soup.find('div', class_='profile')
+        location_div = profile_div.find('div', class_='location')
+        location = location_div.text.strip()
+        location = location.encode('ascii', 'ignore').decode('utf-8')  # sometimes the users use emojis
+    except:
+        location = None
+
+    consultant_data['location'] = location
+    logger.debug(f'{location=}')
+
+    # price
+    try:
+        price_xpath = r'//*[@id="container"]/article/div[5]/article/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[1]/span'
+        price_element = soup.select_one(price_xpath)
+        price = price_element.get_text()
+    except:
+        price = None
+
+    consultant_data['price'] = price
+    logger.debug(f'{price=}')
+
+    # linked and twitter links:
+    try:
+        linkedin_xpath = r'//*[@id="container"]/article/div[5]/article/div[1]/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[2]/a[2]'
+        linkedin_element = soup.select_one(linkedin_xpath)
+        linkedin_link = linkedin_element.get('href')
+    except:
+        linkedin_link = None
+
+    consultant_data['linkedin'] = linkedin_link
+    logger.debug(f'{linkedin_link=}')
+
+    try:
+        twitter_xpath = r'//*[@id="container"]/article/div[5]/article/div[1]/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[2]/a[3]'
+        twitter_element = soup.select_one(twitter_xpath)
+        twitter_link = twitter_element.get('href')
+    except:
+        twitter_link = None
+
+    consultant_data['twitter'] = twitter_link
+    logger.debug(f'{twitter_link=}')
+
+    # rating | reviews
+    try:
+        stars_xpath = r'//*[@id="container"]/article/div[5]/article/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]'
+        stars_element = soup.select_one(stars_xpath)
+        non_stars = stars_element.find_all(is_not_star_icon)
+        rating = 5 - len(non_stars)
+    except:
+        rating = None
+
+    try:
+        reviews_xpath = r'//*[@id="container"]/article/div[5]/article/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/span'
+        reviews_element = soup.select_one(reviews_xpath)
+        reviews = reviews_element.text()[1:-1]
+    except:
+        reviews = None
+
+    consultant_data['rating'] = rating
+    consultant_data['reviews'] = reviews
+    logger.debug(f'{rating=} | {reviews=}')
+
+    return consultant_data
+
+
+def is_not_star_icon(tag):
+    return tag.name == 'i' and ('class' not in tag.attrs or 'star' not in tag.attrs['class'])
+
+
 def get_consultant_data(url):
     """
     From a consultant's url on clarity.com, gather all the relevant data
@@ -374,4 +465,17 @@ def get_all_consultant_data_for_all_topics(from_saved_urls=False):
 
 
 if __name__ == '__main__':
-    get_all_consultant_data_for_all_topics(from_saved_urls=FROM_SAVED_URLS)
+    # get_all_consultant_data_for_all_topics(from_saved_urls=FROM_SAVED_URLS)
+    url = r'https://clarity.fm/tomwilliams'
+
+    headers = {"User-Agent": UA.random}
+    while True:
+        req = grequests.get(url, headers=headers, timeout=TIMEOUT).send()
+        response = grequests.map([req])[0]
+        if response is not None and response.status_code == 200:
+            break
+
+    html_code = response.text
+
+    data = get_consultant_data_from_html(html_code)
+    print(data)
