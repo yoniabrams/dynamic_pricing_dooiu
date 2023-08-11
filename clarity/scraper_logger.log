@@ -486,3 +486,1655 @@ k=None
 2023-08-09 10:39:51,826 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
 2023-08-09 10:39:51,831 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
 2023-08-09 10:39:51,831 - clarity_scraper.py - get_consultant_data - DEBUG - price=None
+2023-08-09 12:40:48,166 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - name='Tom Williams'
+2023-08-09 12:40:48,167 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - location='San Francisco, California'
+2023-08-09 12:40:48,167 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - price=None
+2023-08-09 12:40:48,167 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - linkedin_link=None
+2023-08-09 12:40:48,167 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - twitter_link=None
+2023-08-09 12:40:48,167 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - rating=None | reviews=None
+2023-08-09 12:41:53,355 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - name='Tom Williams'
+2023-08-09 12:41:53,355 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - location='San Francisco, California'
+2023-08-09 12:41:53,356 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - price=None
+2023-08-09 12:41:53,356 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - linkedin_link=None
+2023-08-09 12:41:53,356 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - twitter_link=None
+2023-08-09 12:41:53,357 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - rating=None | reviews=None
+2023-08-09 12:42:19,014 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - name='Tom Williams'
+2023-08-09 12:42:19,014 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - location='San Francisco, California'
+2023-08-09 12:42:19,014 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - price=None
+2023-08-09 12:42:19,014 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - linkedin_link=None
+2023-08-09 12:42:19,014 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - twitter_link=None
+2023-08-09 12:42:19,014 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - rating=None | reviews=None
+2023-08-09 12:50:06,780 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - name='Tom Williams'
+2023-08-09 12:50:06,780 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - location='San Francisco, California'
+2023-08-09 12:50:06,780 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - price=None
+2023-08-09 12:50:06,783 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - linkedin_link=None
+2023-08-09 12:50:06,783 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - twitter_link=None
+2023-08-09 12:50:06,783 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - rating=None | reviews=None
+2023-08-09 12:50:56,516 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - name='Tom Williams'
+2023-08-09 12:50:56,517 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - location='San Francisco, California'
+2023-08-09 12:50:56,518 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - price=None
+2023-08-09 12:53:24,938 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - name='Tom Williams'
+2023-08-09 12:53:24,938 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - location='San Francisco, California'
+2023-08-09 12:53:24,938 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - price=None
+2023-08-09 12:56:19,432 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - name='Tom Williams'
+2023-08-09 12:56:19,433 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - location='San Francisco, California'
+2023-08-09 12:56:19,433 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - price=None
+2023-08-11 12:42:53,835 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - name='Tom Williams'
+2023-08-11 12:42:53,836 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - location='San Francisco, California'
+2023-08-11 12:42:53,837 - clarity_scraper.py - get_consultant_data_from_html - DEBUG - price=None
+2023-08-11 12:43:25,605 - testing_scraper.py - main - DEBUG - topic='entrepreneurship' (1 of 161) | To scrape: 1500 | From cache: 0
+2023-08-11 12:43:25,607 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mikemoyer
+2023-08-11 12:43:25,607 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tonydinitto
+2023-08-11 12:43:25,608 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/danmartell
+2023-08-11 12:43:25,610 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tomwilliams
+2023-08-11 12:43:25,611 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jeffsolomon
+2023-08-11 12:43:25,612 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ryanrutan
+2023-08-11 12:43:25,617 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tylerwagner
+2023-08-11 12:43:25,619 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/montina
+2023-08-11 12:43:43,599 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:43:43,655 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stuartmacdonald
+2023-08-11 12:43:44,143 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:43:44,194 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/markozlatic
+2023-08-11 12:43:44,194 - testing_scraper.py - main - DEBUG - Scraped 1 of 1500
+2023-08-11 12:43:44,196 - testing_scraper.py - main - DEBUG - Scraped 2 of 1500
+2023-08-11 12:43:44,250 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:43:44,288 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/justinwinter
+2023-08-11 12:43:44,288 - testing_scraper.py - main - DEBUG - Scraped 3 of 1500
+2023-08-11 12:43:45,639 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:43:45,659 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/amazon
+2023-08-11 12:43:45,659 - testing_scraper.py - main - DEBUG - Scraped 4 of 1500
+2023-08-11 12:43:50,083 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:43:50,106 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/top5
+2023-08-11 12:43:52,237 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:43:52,302 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/roymorejon
+2023-08-11 12:43:52,937 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:43:52,954 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/johnramey
+2023-08-11 12:43:52,954 - testing_scraper.py - main - DEBUG - Scraped 5 of 1500
+2023-08-11 12:43:52,955 - testing_scraper.py - main - DEBUG - Scraped 6 of 1500
+2023-08-11 12:43:52,955 - testing_scraper.py - main - DEBUG - Scraped 7 of 1500
+2023-08-11 12:43:53,111 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:43:53,129 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/shishirmba
+2023-08-11 12:43:53,130 - testing_scraper.py - main - DEBUG - Scraped 8 of 1500
+2023-08-11 12:43:58,674 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:43:58,703 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/asmartbear
+2023-08-11 12:43:59,871 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:43:59,897 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tylercrowley
+2023-08-11 12:43:59,897 - testing_scraper.py - main - DEBUG - Scraped 9 of 1500
+2023-08-11 12:43:59,898 - testing_scraper.py - main - DEBUG - Scraped 10 of 1500
+2023-08-11 12:44:03,287 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:03,315 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/matthewmeltzer
+2023-08-11 12:44:04,258 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:04,695 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/rodrigomartinez
+2023-08-11 12:44:04,695 - testing_scraper.py - main - DEBUG - Scraped 11 of 1500
+2023-08-11 12:44:04,695 - testing_scraper.py - main - DEBUG - Scraped 12 of 1500
+2023-08-11 12:44:08,994 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:09,014 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/dsifry
+2023-08-11 12:44:09,015 - testing_scraper.py - main - DEBUG - Scraped 13 of 1500
+2023-08-11 12:44:12,907 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:12,929 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/drewmeyers
+2023-08-11 12:44:14,961 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:14,977 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/pezelias
+2023-08-11 12:44:17,250 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:17,270 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/foreverselfemployed
+2023-08-11 12:44:17,270 - testing_scraper.py - main - DEBUG - Scraped 14 of 1500
+2023-08-11 12:44:17,271 - testing_scraper.py - main - DEBUG - Scraped 15 of 1500
+2023-08-11 12:44:17,271 - testing_scraper.py - main - DEBUG - Scraped 16 of 1500
+2023-08-11 12:44:20,188 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:44:20,208 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/robertocandelaria
+2023-08-11 12:44:21,483 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:44:21,506 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jeremypotvin
+2023-08-11 12:44:21,506 - testing_scraper.py - main - DEBUG - Scraped 17 of 1500
+2023-08-11 12:44:22,927 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:22,945 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/louisconiglio
+2023-08-11 12:44:25,091 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:25,204 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/seanwise
+2023-08-11 12:44:25,204 - testing_scraper.py - main - DEBUG - Scraped 18 of 1500
+2023-08-11 12:44:25,204 - testing_scraper.py - main - DEBUG - Scraped 19 of 1500
+2023-08-11 12:44:25,205 - testing_scraper.py - main - DEBUG - Scraped 20 of 1500
+2023-08-11 12:44:33,530 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:44:33,568 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/bobschwartz
+2023-08-11 12:44:36,104 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:36,139 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/dohertyjf
+2023-08-11 12:44:36,285 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:36,331 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jasoncarvalho
+2023-08-11 12:44:36,333 - testing_scraper.py - main - DEBUG - Scraped 21 of 1500
+2023-08-11 12:44:36,334 - testing_scraper.py - main - DEBUG - Scraped 22 of 1500
+2023-08-11 12:44:38,427 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:38,444 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/williamscottgoldman
+2023-08-11 12:44:39,985 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:40,004 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cherylyeoh
+2023-08-11 12:44:40,004 - testing_scraper.py - main - DEBUG - Scraped 23 of 1500
+2023-08-11 12:44:40,005 - testing_scraper.py - main - DEBUG - Scraped 24 of 1500
+2023-08-11 12:44:40,005 - testing_scraper.py - main - DEBUG - Scraped 25 of 1500
+2023-08-11 12:44:44,453 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:44:44,475 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mikescanlin
+2023-08-11 12:44:44,476 - testing_scraper.py - main - DEBUG - Scraped 26 of 1500
+2023-08-11 12:44:44,702 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:44:44,745 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/willirish
+2023-08-11 12:44:49,108 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:49,132 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/incorporation
+2023-08-11 12:44:49,132 - testing_scraper.py - main - DEBUG - Scraped 27 of 1500
+2023-08-11 12:44:49,132 - testing_scraper.py - main - DEBUG - Scraped 28 of 1500
+2023-08-11 12:44:49,668 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:49,746 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/joshisaak
+2023-08-11 12:44:49,747 - testing_scraper.py - main - DEBUG - Scraped 29 of 1500
+2023-08-11 12:44:52,141 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:52,525 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/raymondnotario
+2023-08-11 12:44:52,525 - testing_scraper.py - main - DEBUG - Scraped 30 of 1500
+2023-08-11 12:44:54,666 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:44:55,287 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kevinramani
+2023-08-11 12:44:56,572 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:44:56,592 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ianippolito
+2023-08-11 12:44:56,592 - testing_scraper.py - main - DEBUG - Scraped 31 of 1500
+2023-08-11 12:44:56,593 - testing_scraper.py - main - DEBUG - Scraped 32 of 1500
+2023-08-11 12:45:00,321 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:45:00,342 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/missprincessdom
+2023-08-11 12:45:00,342 - testing_scraper.py - main - DEBUG - Scraped 33 of 1500
+2023-08-11 12:45:04,452 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:45:04,482 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/peterpham
+2023-08-11 12:45:04,482 - testing_scraper.py - main - DEBUG - Scraped 34 of 1500
+2023-08-11 12:45:06,404 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:45:06,427 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/pdejoe
+2023-08-11 12:45:06,427 - testing_scraper.py - main - DEBUG - Scraped 35 of 1500
+2023-08-11 12:45:08,028 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:45:08,048 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/assafben-david
+2023-08-11 12:45:08,049 - testing_scraper.py - main - DEBUG - Scraped 36 of 1500
+2023-08-11 12:45:23,378 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:45:23,396 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/peteryan4721
+2023-08-11 12:45:28,846 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:45:28,868 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:45:28,882 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/darabelliott
+2023-08-11 12:45:28,904 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/latonyajohnson
+2023-08-11 12:45:28,904 - testing_scraper.py - main - DEBUG - Scraped 37 of 1500
+2023-08-11 12:45:28,927 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:45:28,953 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/chrisbrogan
+2023-08-11 12:45:29,420 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:45:29,439 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/aaronvidas
+2023-08-11 12:45:29,440 - testing_scraper.py - main - DEBUG - Scraped 38 of 1500
+2023-08-11 12:45:30,377 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:45:30,395 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/arimeisel
+2023-08-11 12:45:30,395 - testing_scraper.py - main - DEBUG - Scraped 39 of 1500
+2023-08-11 12:45:33,842 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:45:33,858 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jessica-m-baker
+2023-08-11 12:45:35,946 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:45:35,961 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/aaronlyons
+2023-08-11 12:45:35,961 - testing_scraper.py - main - DEBUG - Scraped 40 of 1500
+2023-08-11 12:45:35,961 - testing_scraper.py - main - DEBUG - Scraped 41 of 1500
+2023-08-11 12:45:35,961 - testing_scraper.py - main - DEBUG - Scraped 42 of 1500
+2023-08-11 12:45:35,961 - testing_scraper.py - main - DEBUG - Scraped 43 of 1500
+2023-08-11 12:45:35,962 - testing_scraper.py - main - DEBUG - Scraped 44 of 1500
+2023-08-11 12:45:38,705 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:45:38,718 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/carriedils
+2023-08-11 12:45:38,718 - testing_scraper.py - main - DEBUG - Scraped 45 of 1500
+2023-08-11 12:45:43,800 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:45:43,813 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/reneewarren
+2023-08-11 12:45:44,031 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:45:44,046 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevefanale
+2023-08-11 12:45:44,046 - testing_scraper.py - main - DEBUG - Scraped 46 of 1500
+2023-08-11 12:45:51,995 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:45:52,006 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/bradfinn
+2023-08-11 12:45:52,006 - testing_scraper.py - main - DEBUG - Scraped 47 of 1500
+2023-08-11 12:45:52,518 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:45:52,532 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tom
+2023-08-11 12:45:54,491 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:45:54,504 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/aszig
+2023-08-11 12:45:56,695 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:45:56,709 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/chrisjustice
+2023-08-11 12:45:59,992 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:46:00,002 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/johnshapiro
+2023-08-11 12:46:03,012 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:03,029 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/derekbnb
+2023-08-11 12:46:04,124 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:04,137 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/dr-charleslivingston
+2023-08-11 12:46:11,266 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:11,277 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/evanluthra
+2023-08-11 12:46:11,978 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:11,994 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/travismccutcheon
+2023-08-11 12:46:11,994 - testing_scraper.py - main - DEBUG - Scraped 48 of 1500
+2023-08-11 12:46:11,995 - testing_scraper.py - main - DEBUG - Scraped 49 of 1500
+2023-08-11 12:46:11,995 - testing_scraper.py - main - DEBUG - Scraped 50 of 1500
+2023-08-11 12:46:11,995 - testing_scraper.py - main - DEBUG - Scraped 51 of 1500
+2023-08-11 12:46:11,995 - testing_scraper.py - main - DEBUG - Scraped 52 of 1500
+2023-08-11 12:46:11,995 - testing_scraper.py - main - DEBUG - Scraped 53 of 1500
+2023-08-11 12:46:11,995 - testing_scraper.py - main - DEBUG - Scraped 54 of 1500
+2023-08-11 12:46:11,995 - testing_scraper.py - main - DEBUG - Scraped 55 of 1500
+2023-08-11 12:46:15,375 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:46:15,391 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mailgenius
+2023-08-11 12:46:15,418 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:46:15,431 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/aaronhattenbach
+2023-08-11 12:46:16,235 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:46:16,250 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/alexpyatetsky
+2023-08-11 12:46:18,844 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:46:18,858 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sampriestley
+2023-08-11 12:46:18,859 - testing_scraper.py - main - DEBUG - Scraped 56 of 1500
+2023-08-11 12:46:18,859 - testing_scraper.py - main - DEBUG - Scraped 57 of 1500
+2023-08-11 12:46:19,504 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:19,537 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/h-michael-mike-burgett
+2023-08-11 12:46:23,675 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:23,693 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kevinmccarthy
+2023-08-11 12:46:24,530 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:24,544 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/chadmureta
+2023-08-11 12:46:24,544 - testing_scraper.py - main - DEBUG - Scraped 58 of 1500
+2023-08-11 12:46:24,544 - testing_scraper.py - main - DEBUG - Scraped 59 of 1500
+2023-08-11 12:46:24,545 - testing_scraper.py - main - DEBUG - Scraped 60 of 1500
+2023-08-11 12:46:24,545 - testing_scraper.py - main - DEBUG - Scraped 61 of 1500
+2023-08-11 12:46:24,545 - testing_scraper.py - main - DEBUG - Scraped 62 of 1500
+2023-08-11 12:46:26,528 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:26,543 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/melaniemarten
+2023-08-11 12:46:26,543 - testing_scraper.py - main - DEBUG - Scraped 63 of 1500
+2023-08-11 12:46:26,543 - testing_scraper.py - main - DEBUG - Scraped 64 of 1500
+2023-08-11 12:46:28,615 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:46:28,633 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/otilia
+2023-08-11 12:46:28,633 - testing_scraper.py - main - DEBUG - Scraped 65 of 1500
+2023-08-11 12:46:35,794 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:35,804 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/poornima
+2023-08-11 12:46:36,971 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:36,984 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/marktaylor
+2023-08-11 12:46:37,409 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:37,424 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/elimotivates
+2023-08-11 12:46:39,473 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:39,487 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/charleshopkins
+2023-08-11 12:46:40,164 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:40,178 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jessicakwong
+2023-08-11 12:46:42,251 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:42,269 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/michaelwillis
+2023-08-11 12:46:48,526 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:48,537 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/garethhughes
+2023-08-11 12:46:53,595 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:53,606 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/annaselundberg
+2023-08-11 12:46:54,343 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:54,356 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/shamsjuma
+2023-08-11 12:46:54,815 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:46:54,824 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/brandonbrotsky
+2023-08-11 12:46:55,533 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:46:55,549 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kaigradert
+2023-08-11 12:46:56,862 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:46:56,879 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stealx
+2023-08-11 12:47:00,213 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:00,241 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/toddstaples
+2023-08-11 12:47:04,611 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:04,624 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/aaronross
+2023-08-11 12:47:06,364 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:47:06,376 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/eugenecheng85
+2023-08-11 12:47:07,977 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:47:07,994 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kenclark
+2023-08-11 12:47:09,655 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:09,672 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kabouelnaga
+2023-08-11 12:47:10,786 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:10,816 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jjbuckner
+2023-08-11 12:47:13,159 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:13,179 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/aaronlemay
+2023-08-11 12:47:16,720 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:16,734 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/denisesarkor
+2023-08-11 12:47:18,481 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:18,495 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/avinash
+2023-08-11 12:47:22,623 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:22,634 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/toddtzeng
+2023-08-11 12:47:23,869 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:23,881 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/niteshsharoff
+2023-08-11 12:47:24,472 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:24,484 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kimberlycornwell
+2023-08-11 12:47:25,715 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:25,729 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/bryanoneil
+2023-08-11 12:47:33,411 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:47:33,421 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jilliandarlington
+2023-08-11 12:47:38,868 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:38,878 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/danmezheritsky
+2023-08-11 12:47:39,324 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:39,335 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/spencergallagher
+2023-08-11 12:47:39,770 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:47:39,781 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/greysonboerner
+2023-08-11 12:47:41,147 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:41,195 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ocpd
+2023-08-11 12:47:44,932 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:44,947 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jimmymoncrief1
+2023-08-11 12:47:49,630 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:49,639 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/joelvalenzuela
+2023-08-11 12:47:52,692 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:52,708 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/georgiethomas
+2023-08-11 12:47:56,205 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:56,222 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/michaelkawula
+2023-08-11 12:47:57,085 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:47:57,099 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jeffhatten
+2023-08-11 12:47:57,369 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:47:57,381 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/robertarmstrong
+2023-08-11 12:47:58,566 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:47:58,601 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/salmaunahmad
+2023-08-11 12:48:05,012 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:05,029 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/maiab
+2023-08-11 12:48:05,089 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:48:05,110 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/eliotburdett
+2023-08-11 12:48:08,542 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:08,560 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/paulloeb
+2023-08-11 12:48:11,604 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:11,626 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/noamkos
+2023-08-11 12:48:12,087 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:12,109 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mkrupit
+2023-08-11 12:48:16,067 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:48:16,082 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/amir
+2023-08-11 12:48:16,945 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:48:16,964 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/yasmeentadia
+2023-08-11 12:48:18,163 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:48:18,177 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/rui
+2023-08-11 12:48:19,299 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:19,315 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/arfan
+2023-08-11 12:48:22,626 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:22,643 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/eywu
+2023-08-11 12:48:28,724 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:48:28,736 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jhm
+2023-08-11 12:48:31,204 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:31,219 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/levene
+2023-08-11 12:48:31,230 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:31,245 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/derekball
+2023-08-11 12:48:32,185 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:32,199 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/marcyswenson
+2023-08-11 12:48:32,573 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:48:32,585 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/obasiscott
+2023-08-11 12:48:33,197 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:48:33,210 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/daveschneider
+2023-08-11 12:48:39,120 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:48:39,136 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sashi
+2023-08-11 12:48:44,755 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:44,779 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/derekmagill
+2023-08-11 12:48:44,954 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:44,971 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/risenhoover
+2023-08-11 12:48:46,410 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:48:46,424 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/nitinmittal
+2023-08-11 12:48:48,215 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:48,240 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/chrisbruce
+2023-08-11 12:48:48,875 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:49,187 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/penelopeceja
+2023-08-11 12:48:52,103 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:52,120 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/anthonyenglish
+2023-08-11 12:48:55,338 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:55,355 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cnatomd
+2023-08-11 12:48:57,815 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:58,132 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/corybinsfield
+2023-08-11 12:48:59,433 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:48:59,445 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/matteolombardi
+2023-08-11 12:49:04,786 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:04,796 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/taragowland
+2023-08-11 12:49:05,187 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:49:05,199 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/joeplayer
+2023-08-11 12:49:05,595 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:05,605 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/joshpollock
+2023-08-11 12:49:10,415 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:10,426 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevenkronick
+2023-08-11 12:49:12,364 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:12,380 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/chrisyeh
+2023-08-11 12:49:14,535 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:14,552 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ryanyoung
+2023-08-11 12:49:18,611 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:18,627 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/dshani
+2023-08-11 12:49:19,424 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:49:19,439 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/eric-nisall
+2023-08-11 12:49:20,441 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:20,455 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/danawilde
+2023-08-11 12:49:24,630 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:24,643 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/justinlukasavige
+2023-08-11 12:49:27,693 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:49:27,713 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jeremyokrafka
+2023-08-11 12:49:31,231 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:31,243 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/joannakinsman
+2023-08-11 12:49:31,925 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:31,939 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/benzlotnick
+2023-08-11 12:49:37,060 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:37,072 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/rajivbhat
+2023-08-11 12:49:40,061 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:40,077 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/christinelu
+2023-08-11 12:49:40,865 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:40,879 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/keidra
+2023-08-11 12:49:43,843 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:43,879 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/marcangelocoppola
+2023-08-11 12:49:45,762 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:45,780 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jgibbard
+2023-08-11 12:49:48,374 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:49:48,390 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/craigmorantz
+2023-08-11 12:49:48,391 - testing_scraper.py - main - DEBUG - Scraped 66 of 1500
+2023-08-11 12:49:48,391 - testing_scraper.py - main - DEBUG - Scraped 67 of 1500
+2023-08-11 12:49:48,391 - testing_scraper.py - main - DEBUG - Scraped 68 of 1500
+2023-08-11 12:49:48,391 - testing_scraper.py - main - DEBUG - Scraped 69 of 1500
+2023-08-11 12:49:48,391 - testing_scraper.py - main - DEBUG - Scraped 70 of 1500
+2023-08-11 12:49:48,392 - testing_scraper.py - main - DEBUG - Scraped 71 of 1500
+2023-08-11 12:49:48,392 - testing_scraper.py - main - DEBUG - Scraped 72 of 1500
+2023-08-11 12:49:48,392 - testing_scraper.py - main - DEBUG - Scraped 73 of 1500
+2023-08-11 12:49:48,392 - testing_scraper.py - main - DEBUG - Scraped 74 of 1500
+2023-08-11 12:49:48,392 - testing_scraper.py - main - DEBUG - Scraped 75 of 1500
+2023-08-11 12:49:48,392 - testing_scraper.py - main - DEBUG - Scraped 76 of 1500
+2023-08-11 12:49:48,392 - testing_scraper.py - main - DEBUG - Scraped 77 of 1500
+2023-08-11 12:49:48,392 - testing_scraper.py - main - DEBUG - Scraped 78 of 1500
+2023-08-11 12:49:48,393 - testing_scraper.py - main - DEBUG - Scraped 79 of 1500
+2023-08-11 12:49:48,393 - testing_scraper.py - main - DEBUG - Scraped 80 of 1500
+2023-08-11 12:49:48,393 - testing_scraper.py - main - DEBUG - Scraped 81 of 1500
+2023-08-11 12:49:48,394 - testing_scraper.py - main - DEBUG - Scraped 82 of 1500
+2023-08-11 12:49:48,394 - testing_scraper.py - main - DEBUG - Scraped 83 of 1500
+2023-08-11 12:49:48,394 - testing_scraper.py - main - DEBUG - Scraped 84 of 1500
+2023-08-11 12:49:48,394 - testing_scraper.py - main - DEBUG - Scraped 85 of 1500
+2023-08-11 12:49:48,394 - testing_scraper.py - main - DEBUG - Scraped 86 of 1500
+2023-08-11 12:49:48,394 - testing_scraper.py - main - DEBUG - Scraped 87 of 1500
+2023-08-11 12:49:48,394 - testing_scraper.py - main - DEBUG - Scraped 88 of 1500
+2023-08-11 12:49:48,395 - testing_scraper.py - main - DEBUG - Scraped 89 of 1500
+2023-08-11 12:49:48,395 - testing_scraper.py - main - DEBUG - Scraped 90 of 1500
+2023-08-11 12:49:52,276 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:52,291 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/joeycoleman
+2023-08-11 12:49:55,493 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:49:55,506 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/davideckoff
+2023-08-11 12:49:58,434 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:58,450 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/philmacnevin
+2023-08-11 12:49:59,793 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:49:59,807 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/toddtroha
+2023-08-11 12:50:02,629 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:50:02,642 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/wilsonpeng8
+2023-08-11 12:50:06,690 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:50:06,700 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jesselear
+2023-08-11 12:50:08,913 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:50:08,928 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tamarahblack
+2023-08-11 12:50:12,713 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:50:12,714 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:50:12,727 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kayadorey
+2023-08-11 12:50:12,727 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/georgefavvas
+2023-08-11 12:50:18,133 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:50:18,145 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/corymiller
+2023-08-11 12:50:25,814 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:50:25,825 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/micadams
+2023-08-11 12:50:29,129 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:50:29,141 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/markdimuzio
+2023-08-11 12:50:29,463 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:50:29,476 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/venise-maybank
+2023-08-11 12:50:31,312 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:50:31,332 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cameronherold
+2023-08-11 12:50:36,306 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:50:36,315 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/armanassadi
+2023-08-11 12:50:40,767 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:50:40,778 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevenmdean
+2023-08-11 12:50:42,756 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:50:42,793 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/neddwyer
+2023-08-11 12:50:42,794 - testing_scraper.py - main - DEBUG - Scraped 91 of 1500
+2023-08-11 12:50:42,794 - testing_scraper.py - main - DEBUG - Scraped 92 of 1500
+2023-08-11 12:50:42,794 - testing_scraper.py - main - DEBUG - Scraped 93 of 1500
+2023-08-11 12:50:42,794 - testing_scraper.py - main - DEBUG - Scraped 94 of 1500
+2023-08-11 12:50:42,794 - testing_scraper.py - main - DEBUG - Scraped 95 of 1500
+2023-08-11 12:50:42,794 - testing_scraper.py - main - DEBUG - Scraped 96 of 1500
+2023-08-11 12:50:42,795 - testing_scraper.py - main - DEBUG - Scraped 97 of 1500
+2023-08-11 12:50:42,795 - testing_scraper.py - main - DEBUG - Scraped 98 of 1500
+2023-08-11 12:50:42,795 - testing_scraper.py - main - DEBUG - Scraped 99 of 1500
+2023-08-11 12:50:42,796 - testing_scraper.py - main - DEBUG - Scraped 100 of 1500
+2023-08-11 12:50:42,796 - testing_scraper.py - main - DEBUG - Scraped 101 of 1500
+2023-08-11 12:50:42,796 - testing_scraper.py - main - DEBUG - Scraped 102 of 1500
+2023-08-11 12:50:42,796 - testing_scraper.py - main - DEBUG - Scraped 103 of 1500
+2023-08-11 12:50:42,796 - testing_scraper.py - main - DEBUG - Scraped 104 of 1500
+2023-08-11 12:50:42,796 - testing_scraper.py - main - DEBUG - Scraped 105 of 1500
+2023-08-11 12:50:42,796 - testing_scraper.py - main - DEBUG - Scraped 106 of 1500
+2023-08-11 12:50:42,796 - testing_scraper.py - main - DEBUG - Scraped 107 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 108 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 109 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 110 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 111 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 112 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 113 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 114 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 115 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 116 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 117 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 118 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 119 of 1500
+2023-08-11 12:50:42,797 - testing_scraper.py - main - DEBUG - Scraped 120 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 121 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 122 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 123 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 124 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 125 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 126 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 127 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 128 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 129 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 130 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 131 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 132 of 1500
+2023-08-11 12:50:42,799 - testing_scraper.py - main - DEBUG - Scraped 133 of 1500
+2023-08-11 12:50:42,800 - testing_scraper.py - main - DEBUG - Scraped 134 of 1500
+2023-08-11 12:50:42,800 - testing_scraper.py - main - DEBUG - Scraped 135 of 1500
+2023-08-11 12:50:42,800 - testing_scraper.py - main - DEBUG - Scraped 136 of 1500
+2023-08-11 12:50:42,800 - testing_scraper.py - main - DEBUG - Scraped 137 of 1500
+2023-08-11 12:50:42,800 - testing_scraper.py - main - DEBUG - Scraped 138 of 1500
+2023-08-11 12:50:42,800 - testing_scraper.py - main - DEBUG - Scraped 139 of 1500
+2023-08-11 12:50:42,800 - testing_scraper.py - main - DEBUG - Scraped 140 of 1500
+2023-08-11 12:50:43,312 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:50:43,325 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/edwardstephens
+2023-08-11 12:50:45,472 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:50:45,512 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stephanlittle
+2023-08-11 12:50:50,756 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:50:50,770 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/nickoneill
+2023-08-11 12:50:51,912 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:50:51,926 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jbreinlinger
+2023-08-11 12:50:53,871 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:50:53,887 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ederholguin
+2023-08-11 12:51:00,471 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:00,482 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stefanpretty
+2023-08-11 12:51:03,723 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:03,735 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ericasmith
+2023-08-11 12:51:04,611 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:04,622 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/wendymayhew
+2023-08-11 12:51:09,941 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:51:09,954 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kyleracki
+2023-08-11 12:51:11,618 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:11,632 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/joshgarellek
+2023-08-11 12:51:13,361 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:13,374 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/vipedesai
+2023-08-11 12:51:15,872 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:15,885 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/malouie
+2023-08-11 12:51:22,486 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:22,498 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ryanguth
+2023-08-11 12:51:22,572 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:22,586 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jasonconnell
+2023-08-11 12:51:25,862 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:25,874 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/lucyguo
+2023-08-11 12:51:26,936 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:26,952 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/robertrichman
+2023-08-11 12:51:30,095 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:30,108 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/maryefern
+2023-08-11 12:51:38,159 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:38,173 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/shawnmatthews
+2023-08-11 12:51:39,269 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:39,282 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jordanharbinger1
+2023-08-11 12:51:42,406 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:42,417 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/adamepstein
+2023-08-11 12:51:45,419 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:45,431 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kunalpunjabi
+2023-08-11 12:51:50,033 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:50,044 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/hoteliyo
+2023-08-11 12:51:52,893 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:51:52,903 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sandrawong1
+2023-08-11 12:51:57,098 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:51:57,110 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/scottoldford
+2023-08-11 12:52:02,168 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:02,177 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jeremyshapiro
+2023-08-11 12:52:04,089 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:04,102 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/markruddock
+2023-08-11 12:52:06,608 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:06,621 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jefflusin
+2023-08-11 12:52:08,985 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:08,997 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/russperry
+2023-08-11 12:52:14,083 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:14,094 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/williamwhitman
+2023-08-11 12:52:14,793 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:14,805 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/chrishulls
+2023-08-11 12:52:19,701 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:19,711 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/samvakili
+2023-08-11 12:52:26,068 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:52:26,079 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jamstud
+2023-08-11 12:52:26,779 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:26,790 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/makingmoves
+2023-08-11 12:52:30,578 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:52:30,588 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/victormacias
+2023-08-11 12:52:36,404 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:36,413 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ruke
+2023-08-11 12:52:39,324 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:39,337 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/alanweinkrantz
+2023-08-11 12:52:45,189 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:52:45,200 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/gerrywilson
+2023-08-11 12:52:45,200 - testing_scraper.py - main - DEBUG - Scraped 141 of 1500
+2023-08-11 12:52:45,200 - testing_scraper.py - main - DEBUG - Scraped 142 of 1500
+2023-08-11 12:52:45,201 - testing_scraper.py - main - DEBUG - Scraped 143 of 1500
+2023-08-11 12:52:45,201 - testing_scraper.py - main - DEBUG - Scraped 144 of 1500
+2023-08-11 12:52:45,201 - testing_scraper.py - main - DEBUG - Scraped 145 of 1500
+2023-08-11 12:52:45,201 - testing_scraper.py - main - DEBUG - Scraped 146 of 1500
+2023-08-11 12:52:45,201 - testing_scraper.py - main - DEBUG - Scraped 147 of 1500
+2023-08-11 12:52:45,201 - testing_scraper.py - main - DEBUG - Scraped 148 of 1500
+2023-08-11 12:52:45,201 - testing_scraper.py - main - DEBUG - Scraped 149 of 1500
+2023-08-11 12:52:45,856 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:52:45,870 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/chiragkulkarni
+2023-08-11 12:52:47,151 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:47,167 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/davechase
+2023-08-11 12:52:50,558 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:50,584 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kennkelly
+2023-08-11 12:52:56,550 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:56,561 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/laurentgibb
+2023-08-11 12:52:58,804 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:58,820 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/fraserdoherty
+2023-08-11 12:52:59,667 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:52:59,680 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/spearsmarketing
+2023-08-11 12:53:03,733 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:03,748 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/thomasv
+2023-08-11 12:53:07,635 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:53:07,650 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sureshv
+2023-08-11 12:53:07,651 - testing_scraper.py - main - DEBUG - Scraped 150 of 1500
+2023-08-11 12:53:07,651 - testing_scraper.py - main - DEBUG - Scraped 151 of 1500
+2023-08-11 12:53:08,888 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:53:08,905 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jonathanmi1
+2023-08-11 12:53:12,745 - testing_scraper.py - scrape_url - DEBUG - Num nones: 3
+2023-08-11 12:53:12,766 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/erictermuende
+2023-08-11 12:53:12,766 - testing_scraper.py - main - DEBUG - Scraped 152 of 1500
+2023-08-11 12:53:12,767 - testing_scraper.py - main - DEBUG - Scraped 153 of 1500
+2023-08-11 12:53:12,767 - testing_scraper.py - main - DEBUG - Scraped 154 of 1500
+2023-08-11 12:53:12,767 - testing_scraper.py - main - DEBUG - Scraped 155 of 1500
+2023-08-11 12:53:12,767 - testing_scraper.py - main - DEBUG - Scraped 156 of 1500
+2023-08-11 12:53:12,767 - testing_scraper.py - main - DEBUG - Scraped 157 of 1500
+2023-08-11 12:53:12,768 - testing_scraper.py - main - DEBUG - Scraped 158 of 1500
+2023-08-11 12:53:12,768 - testing_scraper.py - main - DEBUG - Scraped 159 of 1500
+2023-08-11 12:53:12,769 - testing_scraper.py - main - DEBUG - Scraped 160 of 1500
+2023-08-11 12:53:12,769 - testing_scraper.py - main - DEBUG - Scraped 161 of 1500
+2023-08-11 12:53:12,770 - testing_scraper.py - main - DEBUG - Scraped 162 of 1500
+2023-08-11 12:53:12,770 - testing_scraper.py - main - DEBUG - Scraped 163 of 1500
+2023-08-11 12:53:12,770 - testing_scraper.py - main - DEBUG - Scraped 164 of 1500
+2023-08-11 12:53:12,770 - testing_scraper.py - main - DEBUG - Scraped 165 of 1500
+2023-08-11 12:53:12,770 - testing_scraper.py - main - DEBUG - Scraped 166 of 1500
+2023-08-11 12:53:12,770 - testing_scraper.py - main - DEBUG - Scraped 167 of 1500
+2023-08-11 12:53:12,771 - testing_scraper.py - main - DEBUG - Scraped 168 of 1500
+2023-08-11 12:53:12,771 - testing_scraper.py - main - DEBUG - Scraped 169 of 1500
+2023-08-11 12:53:12,771 - testing_scraper.py - main - DEBUG - Scraped 170 of 1500
+2023-08-11 12:53:12,771 - testing_scraper.py - main - DEBUG - Scraped 171 of 1500
+2023-08-11 12:53:12,771 - testing_scraper.py - main - DEBUG - Scraped 172 of 1500
+2023-08-11 12:53:12,771 - testing_scraper.py - main - DEBUG - Scraped 173 of 1500
+2023-08-11 12:53:12,771 - testing_scraper.py - main - DEBUG - Scraped 174 of 1500
+2023-08-11 12:53:12,771 - testing_scraper.py - main - DEBUG - Scraped 175 of 1500
+2023-08-11 12:53:12,772 - testing_scraper.py - main - DEBUG - Scraped 176 of 1500
+2023-08-11 12:53:12,772 - testing_scraper.py - main - DEBUG - Scraped 177 of 1500
+2023-08-11 12:53:12,772 - testing_scraper.py - main - DEBUG - Scraped 178 of 1500
+2023-08-11 12:53:12,772 - testing_scraper.py - main - DEBUG - Scraped 179 of 1500
+2023-08-11 12:53:12,772 - testing_scraper.py - main - DEBUG - Scraped 180 of 1500
+2023-08-11 12:53:12,772 - testing_scraper.py - main - DEBUG - Scraped 181 of 1500
+2023-08-11 12:53:12,773 - testing_scraper.py - main - DEBUG - Scraped 182 of 1500
+2023-08-11 12:53:12,773 - testing_scraper.py - main - DEBUG - Scraped 183 of 1500
+2023-08-11 12:53:12,773 - testing_scraper.py - main - DEBUG - Scraped 184 of 1500
+2023-08-11 12:53:12,773 - testing_scraper.py - main - DEBUG - Scraped 185 of 1500
+2023-08-11 12:53:12,773 - testing_scraper.py - main - DEBUG - Scraped 186 of 1500
+2023-08-11 12:53:12,912 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:12,928 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kostastavreas
+2023-08-11 12:53:14,073 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:53:14,086 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/markmichuda
+2023-08-11 12:53:17,658 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:17,674 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/hollymagister
+2023-08-11 12:53:21,853 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:53:21,867 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/davidleejensen
+2023-08-11 12:53:25,971 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:25,982 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/andrewferdinando
+2023-08-11 12:53:29,505 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:29,515 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:29,521 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/gabbywallace
+2023-08-11 12:53:29,530 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/devesh
+2023-08-11 12:53:31,650 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:31,669 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/desireecolonna
+2023-08-11 12:53:35,888 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:35,904 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/pierredupont
+2023-08-11 12:53:39,697 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:39,709 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/nathanchan
+2023-08-11 12:53:40,314 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:40,327 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/charleneanderson
+2023-08-11 12:53:45,803 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:45,813 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/davidbutler
+2023-08-11 12:53:49,741 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:53:49,752 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/evergonzalez
+2023-08-11 12:53:50,275 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:50,288 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/samgold
+2023-08-11 12:53:54,552 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:54,567 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/johnhall1
+2023-08-11 12:53:54,736 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:54,749 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/msinia
+2023-08-11 12:53:58,974 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:53:58,991 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/amiteshanand
+2023-08-11 12:54:04,069 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:54:04,079 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/francknouyrigat
+2023-08-11 12:54:08,539 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:54:08,550 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/trevor.lohrbeer
+2023-08-11 12:54:11,045 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 12:54:11,057 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/michaelgrabham
+2023-08-11 12:54:15,147 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:54:15,160 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/raadahmed
+2023-08-11 12:54:16,486 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:54:16,498 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/romytaormina
+2023-08-11 12:54:20,425 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:54:20,440 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/timpalladino
+2023-08-11 12:54:20,944 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:54:20,961 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/aaronsylvan
+2023-08-11 12:54:25,144 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:54:25,159 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kbouw
+2023-08-11 12:54:26,721 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:54:26,733 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jacob-m-engel
+2023-08-11 12:54:28,481 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:54:28,498 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ashleydrummonds
+2023-08-11 12:55:16,022 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:55:16,063 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:55:16,201 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mikejirout
+2023-08-11 12:55:16,206 - testing_scraper.py - main - DEBUG - Scraped 187 of 1500
+2023-08-11 12:55:16,208 - testing_scraper.py - main - DEBUG - Scraped 188 of 1500
+2023-08-11 12:55:16,210 - testing_scraper.py - main - DEBUG - Scraped 189 of 1500
+2023-08-11 12:55:16,212 - testing_scraper.py - main - DEBUG - Scraped 190 of 1500
+2023-08-11 12:55:16,214 - testing_scraper.py - main - DEBUG - Scraped 191 of 1500
+2023-08-11 12:55:16,226 - testing_scraper.py - main - DEBUG - Scraped 192 of 1500
+2023-08-11 12:55:16,227 - testing_scraper.py - main - DEBUG - Scraped 193 of 1500
+2023-08-11 12:55:16,228 - testing_scraper.py - main - DEBUG - Scraped 194 of 1500
+2023-08-11 12:55:16,229 - testing_scraper.py - main - DEBUG - Scraped 195 of 1500
+2023-08-11 12:55:16,229 - testing_scraper.py - main - DEBUG - Scraped 196 of 1500
+2023-08-11 12:55:16,230 - testing_scraper.py - main - DEBUG - Scraped 197 of 1500
+2023-08-11 12:55:16,231 - testing_scraper.py - main - DEBUG - Scraped 198 of 1500
+2023-08-11 12:55:16,246 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/leonshelhamer
+2023-08-11 12:55:22,916 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/andrewdumont
+2023-08-11 12:55:51,267 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:55:51,348 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/coreywadden
+2023-08-11 12:55:51,348 - testing_scraper.py - main - DEBUG - Scraped 199 of 1500
+2023-08-11 12:55:51,355 - testing_scraper.py - main - DEBUG - Scraped 200 of 1500
+2023-08-11 12:55:51,356 - testing_scraper.py - main - DEBUG - Scraped 201 of 1500
+2023-08-11 12:55:51,358 - testing_scraper.py - main - DEBUG - Scraped 202 of 1500
+2023-08-11 12:55:51,358 - testing_scraper.py - main - DEBUG - Scraped 203 of 1500
+2023-08-11 12:55:51,359 - testing_scraper.py - main - DEBUG - Scraped 204 of 1500
+2023-08-11 12:55:51,359 - testing_scraper.py - main - DEBUG - Scraped 205 of 1500
+2023-08-11 12:55:51,360 - testing_scraper.py - main - DEBUG - Scraped 206 of 1500
+2023-08-11 12:55:51,360 - testing_scraper.py - main - DEBUG - Scraped 207 of 1500
+2023-08-11 12:55:51,361 - testing_scraper.py - main - DEBUG - Scraped 208 of 1500
+2023-08-11 12:55:51,361 - testing_scraper.py - main - DEBUG - Scraped 209 of 1500
+2023-08-11 12:55:51,362 - testing_scraper.py - main - DEBUG - Scraped 210 of 1500
+2023-08-11 12:55:51,362 - testing_scraper.py - main - DEBUG - Scraped 211 of 1500
+2023-08-11 12:55:51,363 - testing_scraper.py - main - DEBUG - Scraped 212 of 1500
+2023-08-11 12:55:51,364 - testing_scraper.py - main - DEBUG - Scraped 213 of 1500
+2023-08-11 12:55:51,364 - testing_scraper.py - main - DEBUG - Scraped 214 of 1500
+2023-08-11 12:55:51,365 - testing_scraper.py - main - DEBUG - Scraped 215 of 1500
+2023-08-11 12:55:51,365 - testing_scraper.py - main - DEBUG - Scraped 216 of 1500
+2023-08-11 12:56:42,271 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:56:43,389 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/paulcooley
+2023-08-11 12:56:49,534 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:56:55,207 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/taylormcpartland
+2023-08-11 12:56:56,324 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:56:57,885 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ashmaurya
+2023-08-11 12:57:09,032 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:57:09,321 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/darrenhutchison
+2023-08-11 12:57:09,322 - testing_scraper.py - main - DEBUG - Scraped 217 of 1500
+2023-08-11 12:57:09,325 - testing_scraper.py - main - DEBUG - Scraped 218 of 1500
+2023-08-11 12:57:09,326 - testing_scraper.py - main - DEBUG - Scraped 219 of 1500
+2023-08-11 12:57:09,328 - testing_scraper.py - main - DEBUG - Scraped 220 of 1500
+2023-08-11 12:57:09,333 - testing_scraper.py - main - DEBUG - Scraped 221 of 1500
+2023-08-11 12:57:09,337 - testing_scraper.py - main - DEBUG - Scraped 222 of 1500
+2023-08-11 12:57:09,341 - testing_scraper.py - main - DEBUG - Scraped 223 of 1500
+2023-08-11 12:57:09,343 - testing_scraper.py - main - DEBUG - Scraped 224 of 1500
+2023-08-11 12:57:09,344 - testing_scraper.py - main - DEBUG - Scraped 225 of 1500
+2023-08-11 12:57:09,345 - testing_scraper.py - main - DEBUG - Scraped 226 of 1500
+2023-08-11 12:57:09,353 - testing_scraper.py - main - DEBUG - Scraped 227 of 1500
+2023-08-11 12:57:09,355 - testing_scraper.py - main - DEBUG - Scraped 228 of 1500
+2023-08-11 12:57:09,356 - testing_scraper.py - main - DEBUG - Scraped 229 of 1500
+2023-08-11 12:57:09,357 - testing_scraper.py - main - DEBUG - Scraped 230 of 1500
+2023-08-11 12:57:09,358 - testing_scraper.py - main - DEBUG - Scraped 231 of 1500
+2023-08-11 12:57:09,359 - testing_scraper.py - main - DEBUG - Scraped 232 of 1500
+2023-08-11 12:57:09,360 - testing_scraper.py - main - DEBUG - Scraped 233 of 1500
+2023-08-11 12:57:09,361 - testing_scraper.py - main - DEBUG - Scraped 234 of 1500
+2023-08-11 12:57:09,368 - testing_scraper.py - main - DEBUG - Scraped 235 of 1500
+2023-08-11 12:57:09,370 - testing_scraper.py - main - DEBUG - Scraped 236 of 1500
+2023-08-11 12:57:09,371 - testing_scraper.py - main - DEBUG - Scraped 237 of 1500
+2023-08-11 12:57:09,371 - testing_scraper.py - main - DEBUG - Scraped 238 of 1500
+2023-08-11 12:57:09,372 - testing_scraper.py - main - DEBUG - Scraped 239 of 1500
+2023-08-11 12:57:09,373 - testing_scraper.py - main - DEBUG - Scraped 240 of 1500
+2023-08-11 12:57:09,374 - testing_scraper.py - main - DEBUG - Scraped 241 of 1500
+2023-08-11 12:57:09,376 - testing_scraper.py - main - DEBUG - Scraped 242 of 1500
+2023-08-11 12:57:24,540 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:57:24,786 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/nickpulido
+2023-08-11 12:57:38,469 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:57:38,554 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mitchsapoff
+2023-08-11 12:57:48,918 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:57:49,242 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kenleblanc
+2023-08-11 12:57:51,035 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:57:51,102 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/roblam
+2023-08-11 12:57:53,793 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:57:54,087 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tparang
+2023-08-11 12:58:04,923 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:58:05,237 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/shaydatorabi
+2023-08-11 12:58:29,301 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:58:29,567 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/alexbanayan
+2023-08-11 12:58:30,869 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:58:30,955 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mollymaloofmd
+2023-08-11 12:58:35,800 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:58:35,862 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/coreyeastman
+2023-08-11 12:58:38,236 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:58:38,313 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/joshvickers
+2023-08-11 12:58:42,109 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:58:42,196 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/thomkozik
+2023-08-11 12:59:08,231 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:59:08,604 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mailekeone
+2023-08-11 12:59:12,400 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:59:12,478 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sebastianmarshall
+2023-08-11 12:59:18,083 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:59:18,175 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cashflowdiary
+2023-08-11 12:59:18,925 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:59:18,985 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/benlindell
+2023-08-11 12:59:22,714 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 12:59:22,803 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/toddfederman
+2023-08-11 12:59:47,614 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:59:47,834 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jeffgoldenberg
+2023-08-11 12:59:57,080 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:59:57,149 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/prakashsomosundram
+2023-08-11 12:59:59,370 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 12:59:59,469 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jayeshparmar
+2023-08-11 13:00:03,876 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 13:00:04,850 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/chelsea
+2023-08-11 13:00:28,736 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 13:00:29,116 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevedaar
+2023-08-11 13:00:33,553 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:00:33,640 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/bobcooper
+2023-08-11 13:00:37,639 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:00:37,851 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/douglasstevenson
+2023-08-11 13:00:42,637 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:00:42,880 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/davenevogt
+2023-08-11 13:01:07,032 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:01:07,125 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cleiva
+2023-08-11 13:01:08,363 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:01:08,417 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/chagoelizondo
+2023-08-11 13:01:11,735 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 13:01:11,810 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jimscheinman
+2023-08-11 13:01:14,681 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:01:14,735 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tommyjoiner
+2023-08-11 13:01:40,508 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:01:40,544 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jeffreylminch
+2023-08-11 13:01:44,050 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:01:44,088 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jameshart
+2023-08-11 13:01:48,646 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:01:48,765 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/paulniederer
+2023-08-11 13:02:01,609 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:02:01,667 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/lucasm
+2023-08-11 13:02:05,296 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:02:05,332 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sunilpai
+2023-08-11 13:02:13,290 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:02:13,329 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/solorwell
+2023-08-11 13:02:22,959 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:02:23,016 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/razvangirmacea
+2023-08-11 13:02:37,154 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:02:37,214 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/collinstewart
+2023-08-11 13:02:44,710 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:02:44,764 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/nataliaobertinoguera
+2023-08-11 13:02:57,857 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:02:57,899 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/edfarrell
+2023-08-11 13:03:05,678 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kristinam
+2023-08-11 13:03:06,698 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/bradybd
+2023-08-11 13:03:07,179 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 13:03:08,990 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:03:19,611 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:03:26,779 - testing_scraper.py - scrape_url - DEBUG - Num nones: 1
+2023-08-11 13:03:30,768 - testing_scraper.py - scrape_url - DEBUG - Num nones: 0
+2023-08-11 13:25:12,070 - testing_scraper.py - scrape_url - DEBUG - Num nones: 2
+2023-08-11 13:32:43,706 - testing_scraper.py - main - DEBUG - topic='personal-coaching' (1 of 161) | To scrape: 248 | From cache: 0
+2023-08-11 13:32:43,707 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/markozlatic
+2023-08-11 13:32:43,708 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/zfstockill
+2023-08-11 13:32:43,708 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/fishfit
+2023-08-11 13:32:43,709 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/obasiscott
+2023-08-11 13:32:43,709 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sammy-spataro
+2023-08-11 13:32:43,710 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/valeriep
+2023-08-11 13:32:43,711 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cklin
+2023-08-11 13:32:43,714 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/pronotbusy
+2023-08-11 13:32:57,942 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 0
+2023-08-11 13:32:57,955 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cynthiakane
+2023-08-11 13:32:58,996 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 0
+2023-08-11 13:32:59,007 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/dez
+2023-08-11 13:32:59,436 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 0
+2023-08-11 13:32:59,457 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ethanthomas-jones
+2023-08-11 13:33:00,901 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 1
+2023-08-11 13:33:00,925 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/seanrosensteel
+2023-08-11 13:33:01,290 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 0
+2023-08-11 13:33:01,306 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/misslongmpa
+2023-08-11 13:33:01,311 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 0
+2023-08-11 13:33:01,340 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/coachhelenkennedy
+2023-08-11 13:33:04,996 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:33:05,014 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/gregblencoe
+2023-08-11 13:33:05,014 - testing_scraper.py - main - DEBUG - Scraped 1 of 248
+2023-08-11 13:33:05,014 - testing_scraper.py - main - DEBUG - Scraped 2 of 248
+2023-08-11 13:33:05,014 - testing_scraper.py - main - DEBUG - Scraped 3 of 248
+2023-08-11 13:33:05,014 - testing_scraper.py - main - DEBUG - Scraped 4 of 248
+2023-08-11 13:33:08,898 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 0
+2023-08-11 13:33:08,939 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/hansoncheng
+2023-08-11 13:33:08,993 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 1
+2023-08-11 13:33:09,006 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jimpojda
+2023-08-11 13:33:09,006 - testing_scraper.py - main - DEBUG - Scraped 5 of 248
+2023-08-11 13:33:09,006 - testing_scraper.py - main - DEBUG - Scraped 6 of 248
+2023-08-11 13:33:09,006 - testing_scraper.py - main - DEBUG - Scraped 7 of 248
+2023-08-11 13:33:09,006 - testing_scraper.py - main - DEBUG - Scraped 8 of 248
+2023-08-11 13:33:09,006 - testing_scraper.py - main - DEBUG - Scraped 9 of 248
+2023-08-11 13:33:13,459 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 0
+2023-08-11 13:33:13,505 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/juangonzalez1
+2023-08-11 13:33:14,566 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 0
+2023-08-11 13:33:14,582 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/toddsnyder
+2023-08-11 13:33:15,656 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 0
+2023-08-11 13:33:15,670 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jendcreative
+2023-08-11 13:33:16,787 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 1
+2023-08-11 13:33:16,802 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jonuhler
+2023-08-11 13:33:19,416 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 1
+2023-08-11 13:33:19,439 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/bertrandcomte
+2023-08-11 13:33:21,117 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 0
+2023-08-11 13:33:21,156 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/imjrich
+2023-08-11 13:33:23,207 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 0
+2023-08-11 13:33:23,222 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stefanbrule
+2023-08-11 13:33:24,936 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 1
+2023-08-11 13:33:24,950 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/debalverson
+2023-08-11 13:33:26,713 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 1
+2023-08-11 13:33:26,730 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/maximavega
+2023-08-11 13:33:31,338 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:33:31,348 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sharon-narvaez
+2023-08-11 13:33:35,148 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 1
+2023-08-11 13:33:35,158 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/afnan-rahman
+2023-08-11 13:33:36,162 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:33:36,173 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/amnarahimoon
+2023-08-11 13:35:37,324 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:35:37,335 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/askcoachmac
+2023-08-11 13:35:37,350 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:35:37,360 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ahmed-elsaqa
+2023-08-11 13:35:39,598 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:35:39,610 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/johntarnoff
+2023-08-11 13:35:42,071 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:35:42,081 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/justinbasch
+2023-08-11 13:35:46,128 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:35:46,138 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jeanetteaitchison
+2023-08-11 13:35:48,241 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:35:48,253 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jennylytle
+2023-08-11 13:36:29,707 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:36:29,717 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/xiomarahickey
+2023-08-11 13:36:29,717 - testing_scraper.py - main - DEBUG - Scraped 10 of 248
+2023-08-11 13:36:29,717 - testing_scraper.py - main - DEBUG - Scraped 11 of 248
+2023-08-11 13:36:29,717 - testing_scraper.py - main - DEBUG - Scraped 12 of 248
+2023-08-11 13:36:29,717 - testing_scraper.py - main - DEBUG - Scraped 13 of 248
+2023-08-11 13:36:29,717 - testing_scraper.py - main - DEBUG - Scraped 14 of 248
+2023-08-11 13:36:29,717 - testing_scraper.py - main - DEBUG - Scraped 15 of 248
+2023-08-11 13:36:29,717 - testing_scraper.py - main - DEBUG - Scraped 16 of 248
+2023-08-11 13:36:29,717 - testing_scraper.py - main - DEBUG - Scraped 17 of 248
+2023-08-11 13:36:29,717 - testing_scraper.py - main - DEBUG - Scraped 18 of 248
+2023-08-11 13:36:29,717 - testing_scraper.py - main - DEBUG - Scraped 19 of 248
+2023-08-11 13:36:29,717 - testing_scraper.py - main - DEBUG - Scraped 20 of 248
+2023-08-11 13:36:48,113 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 1
+2023-08-11 13:36:48,124 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/luiginobottega
+2023-08-11 13:36:48,124 - testing_scraper.py - main - DEBUG - Scraped 21 of 248
+2023-08-11 13:36:48,124 - testing_scraper.py - main - DEBUG - Scraped 22 of 248
+2023-08-11 13:36:48,124 - testing_scraper.py - main - DEBUG - Scraped 23 of 248
+2023-08-11 13:36:48,124 - testing_scraper.py - main - DEBUG - Scraped 24 of 248
+2023-08-11 13:36:48,124 - testing_scraper.py - main - DEBUG - Scraped 25 of 248
+2023-08-11 13:36:48,124 - testing_scraper.py - main - DEBUG - Scraped 26 of 248
+2023-08-11 13:36:48,124 - testing_scraper.py - main - DEBUG - Scraped 27 of 248
+2023-08-11 13:36:48,126 - testing_scraper.py - main - DEBUG - Scraped 28 of 248
+2023-08-11 13:36:48,126 - testing_scraper.py - main - DEBUG - Scraped 29 of 248
+2023-08-11 13:42:06,241 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:42:06,252 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:42:06,261 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/elizabeth-lewis
+2023-08-11 13:42:06,267 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/linas.star
+2023-08-11 13:42:06,299 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:42:06,314 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:42:06,320 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/serrdavidmurray
+2023-08-11 13:42:06,328 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/michael-hall
+2023-08-11 13:42:06,328 - testing_scraper.py - main - DEBUG - Scraped 30 of 248
+2023-08-11 13:42:06,364 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:42:06,366 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:42:06,386 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:42:06,393 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/oluwatosin-abiade
+2023-08-11 13:42:06,393 - testing_scraper.py - main - DEBUG - Scraped 31 of 248
+2023-08-11 13:42:06,397 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/josephriggio
+2023-08-11 13:42:06,406 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sequoiablodgett
+2023-08-11 13:42:06,407 - testing_scraper.py - main - DEBUG - Scraped 32 of 248
+2023-08-11 13:42:06,461 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:42:06,484 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cxpital-cxpital
+2023-08-11 13:42:06,484 - testing_scraper.py - main - DEBUG - Scraped 33 of 248
+2023-08-11 13:42:06,485 - testing_scraper.py - main - DEBUG - Scraped 34 of 248
+2023-08-11 13:42:06,485 - testing_scraper.py - main - DEBUG - Scraped 35 of 248
+2023-08-11 13:42:06,485 - testing_scraper.py - main - DEBUG - Scraped 36 of 248
+2023-08-11 13:42:06,485 - testing_scraper.py - main - DEBUG - Scraped 37 of 248
+2023-08-11 13:44:19,093 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:44:19,103 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stephenlovegrove
+2023-08-11 13:44:19,104 - testing_scraper.py - main - DEBUG - Scraped 38 of 248
+2023-08-11 13:44:19,953 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:44:19,963 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sachin-kumar2
+2023-08-11 13:44:23,086 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:44:23,100 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/juan-giraldo
+2023-08-11 13:44:23,175 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:44:23,187 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/bobbuckley
+2023-08-11 13:44:23,187 - testing_scraper.py - main - DEBUG - Scraped 39 of 248
+2023-08-11 13:44:25,135 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 13:44:25,149 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/dawannaadeniran
+2023-08-11 13:44:25,149 - testing_scraper.py - main - DEBUG - Scraped 40 of 248
+2023-08-11 13:44:25,149 - testing_scraper.py - main - DEBUG - Scraped 41 of 248
+2023-08-11 13:44:29,814 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:44:29,824 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/damianreid
+2023-08-11 13:44:30,355 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:44:30,369 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/andrewfrawley
+2023-08-11 13:46:30,848 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:46:30,861 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/calvinwitcher
+2023-08-11 13:46:30,868 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:46:30,880 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/clairturner
+2023-08-11 13:46:34,026 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 13:46:34,052 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/alyssapatmos
+2023-08-11 13:46:40,243 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:46:40,243 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:46:40,257 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/godfreyoyeniran
+2023-08-11 13:46:40,259 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tamaratipple
+2023-08-11 13:46:42,838 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:46:42,849 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/nathan-elward
+2023-08-11 13:46:47,973 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:46:47,983 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/dalilael-mansouri
+2023-08-11 13:47:48,014 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:47:48,024 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/eelcosmit
+2023-08-11 13:47:48,024 - testing_scraper.py - main - DEBUG - Scraped 42 of 248
+2023-08-11 13:47:48,024 - testing_scraper.py - main - DEBUG - Scraped 43 of 248
+2023-08-11 13:47:48,024 - testing_scraper.py - main - DEBUG - Scraped 44 of 248
+2023-08-11 13:47:48,024 - testing_scraper.py - main - DEBUG - Scraped 45 of 248
+2023-08-11 13:47:48,024 - testing_scraper.py - main - DEBUG - Scraped 46 of 248
+2023-08-11 13:47:48,024 - testing_scraper.py - main - DEBUG - Scraped 47 of 248
+2023-08-11 13:47:48,024 - testing_scraper.py - main - DEBUG - Scraped 48 of 248
+2023-08-11 13:47:48,024 - testing_scraper.py - main - DEBUG - Scraped 49 of 248
+2023-08-11 13:47:48,024 - testing_scraper.py - main - DEBUG - Scraped 50 of 248
+2023-08-11 13:47:48,024 - testing_scraper.py - main - DEBUG - Scraped 51 of 248
+2023-08-11 13:47:48,026 - testing_scraper.py - main - DEBUG - Scraped 52 of 248
+2023-08-11 13:48:41,044 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:48:41,054 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/professorjaytee
+2023-08-11 13:48:41,054 - testing_scraper.py - main - DEBUG - Scraped 53 of 248
+2023-08-11 13:48:42,914 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:48:42,926 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ryangray
+2023-08-11 13:48:42,926 - testing_scraper.py - main - DEBUG - Scraped 54 of 248
+2023-08-11 13:48:45,434 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 13:48:45,447 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/dannsommer
+2023-08-11 13:48:45,447 - testing_scraper.py - main - DEBUG - Scraped 55 of 248
+2023-08-11 13:48:51,246 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:48:51,257 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cptsd
+2023-08-11 13:48:51,551 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:48:51,562 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevenfies
+2023-08-11 13:48:51,562 - testing_scraper.py - main - DEBUG - Scraped 56 of 248
+2023-08-11 13:48:51,562 - testing_scraper.py - main - DEBUG - Scraped 57 of 248
+2023-08-11 13:48:54,160 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:48:54,172 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/bobnolley
+2023-08-11 13:48:54,172 - testing_scraper.py - main - DEBUG - Scraped 58 of 248
+2023-08-11 13:48:57,838 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 13:48:57,849 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/baldeepkaur
+2023-08-11 13:48:57,849 - testing_scraper.py - main - DEBUG - Scraped 59 of 248
+2023-08-11 13:49:58,819 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:49:58,830 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/taisjalaudy
+2023-08-11 13:49:58,830 - testing_scraper.py - main - DEBUG - Scraped 60 of 248
+2023-08-11 13:50:52,240 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:50:52,251 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/financiallyalert
+2023-08-11 13:50:52,251 - testing_scraper.py - main - DEBUG - Scraped 61 of 248
+2023-08-11 13:50:53,757 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:50:53,770 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/joshball
+2023-08-11 13:50:53,770 - testing_scraper.py - main - DEBUG - Scraped 62 of 248
+2023-08-11 13:50:55,212 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:50:55,226 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/timthomas
+2023-08-11 13:50:55,226 - testing_scraper.py - main - DEBUG - Scraped 63 of 248
+2023-08-11 13:51:02,136 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:51:02,146 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jacobmiller
+2023-08-11 13:51:02,146 - testing_scraper.py - main - DEBUG - Scraped 64 of 248
+2023-08-11 13:51:02,319 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:51:02,331 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/coachingbyclaudia
+2023-08-11 13:51:02,331 - testing_scraper.py - main - DEBUG - Scraped 65 of 248
+2023-08-11 13:51:07,471 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:51:07,483 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevebarker1
+2023-08-11 13:51:07,483 - testing_scraper.py - main - DEBUG - Scraped 66 of 248
+2023-08-11 13:51:09,945 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:51:09,956 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/deannaharder
+2023-08-11 13:51:09,956 - testing_scraper.py - main - DEBUG - Scraped 67 of 248
+2023-08-11 13:52:09,673 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:52:09,683 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/alysiahamilton
+2023-08-11 13:52:09,683 - testing_scraper.py - main - DEBUG - Scraped 68 of 248
+2023-08-11 13:56:16,739 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:56:16,742 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:56:16,756 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ismailelouatik
+2023-08-11 13:56:16,756 - testing_scraper.py - main - DEBUG - Scraped 69 of 248
+2023-08-11 13:56:16,760 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/arianancurry
+2023-08-11 13:56:16,985 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:56:16,985 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:56:16,986 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:56:16,992 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:56:17,004 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:56:17,005 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/keshavbhatt
+2023-08-11 13:56:17,008 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/lydia.scratch
+2023-08-11 13:56:17,012 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevewilliams
+2023-08-11 13:56:17,013 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/victoriawilliamson
+2023-08-11 13:56:17,022 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/rdekok
+2023-08-11 13:56:17,022 - testing_scraper.py - main - DEBUG - Scraped 70 of 248
+2023-08-11 13:56:17,023 - testing_scraper.py - main - DEBUG - Scraped 71 of 248
+2023-08-11 13:56:17,023 - testing_scraper.py - main - DEBUG - Scraped 72 of 248
+2023-08-11 13:56:17,023 - testing_scraper.py - main - DEBUG - Scraped 73 of 248
+2023-08-11 13:56:17,023 - testing_scraper.py - main - DEBUG - Scraped 74 of 248
+2023-08-11 13:56:17,023 - testing_scraper.py - main - DEBUG - Scraped 75 of 248
+2023-08-11 13:58:28,082 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:58:28,093 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/nancycollins285
+2023-08-11 13:58:29,349 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:58:29,360 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/bigdave-smith
+2023-08-11 13:58:30,407 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:58:30,420 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/prakharverma
+2023-08-11 13:58:32,822 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:58:32,835 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sweta
+2023-08-11 13:58:37,378 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:58:37,387 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/valentina-petrova
+2023-08-11 13:58:37,689 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 13:58:37,703 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/randyzachary
+2023-08-11 13:58:38,363 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 13:58:38,377 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/amykauffman
+2023-08-11 14:00:38,135 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:00:38,145 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/souravghosh
+2023-08-11 14:00:40,291 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:00:40,301 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/chidalgo
+2023-08-11 14:00:41,402 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:00:41,413 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kimann-curtin
+2023-08-11 14:00:43,372 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:00:43,423 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sammcroberts
+2023-08-11 14:00:48,198 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:00:48,209 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tamaraprice
+2023-08-11 14:00:50,136 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:00:50,139 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:00:50,150 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/robatkins
+2023-08-11 14:00:50,155 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/balajinarayanan
+2023-08-11 14:00:55,834 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 14:00:55,845 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sunilnair
+2023-08-11 14:00:55,845 - testing_scraper.py - main - DEBUG - Scraped 76 of 248
+2023-08-11 14:00:55,845 - testing_scraper.py - main - DEBUG - Scraped 77 of 248
+2023-08-11 14:00:55,845 - testing_scraper.py - main - DEBUG - Scraped 78 of 248
+2023-08-11 14:00:55,845 - testing_scraper.py - main - DEBUG - Scraped 79 of 248
+2023-08-11 14:00:55,845 - testing_scraper.py - main - DEBUG - Scraped 80 of 248
+2023-08-11 14:00:55,845 - testing_scraper.py - main - DEBUG - Scraped 81 of 248
+2023-08-11 14:00:55,845 - testing_scraper.py - main - DEBUG - Scraped 82 of 248
+2023-08-11 14:00:55,845 - testing_scraper.py - main - DEBUG - Scraped 83 of 248
+2023-08-11 14:00:55,845 - testing_scraper.py - main - DEBUG - Scraped 84 of 248
+2023-08-11 14:00:55,846 - testing_scraper.py - main - DEBUG - Scraped 85 of 248
+2023-08-11 14:00:55,846 - testing_scraper.py - main - DEBUG - Scraped 86 of 248
+2023-08-11 14:00:55,846 - testing_scraper.py - main - DEBUG - Scraped 87 of 248
+2023-08-11 14:00:55,846 - testing_scraper.py - main - DEBUG - Scraped 88 of 248
+2023-08-11 14:00:55,846 - testing_scraper.py - main - DEBUG - Scraped 89 of 248
+2023-08-11 14:00:55,846 - testing_scraper.py - main - DEBUG - Scraped 90 of 248
+2023-08-11 14:05:01,219 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:05:01,222 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:05:01,242 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/danmason
+2023-08-11 14:05:01,246 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/claudiavidal
+2023-08-11 14:05:01,247 - testing_scraper.py - main - DEBUG - Scraped 91 of 248
+2023-08-11 14:05:01,302 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:05:01,319 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/lenaski
+2023-08-11 14:05:01,404 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:05:01,420 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/christinemedina
+2023-08-11 14:05:01,508 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:05:01,534 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jonathanlipitch
+2023-08-11 14:05:01,546 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:05:01,568 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kuldipsingh-korotana
+2023-08-11 14:05:01,570 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:05:01,587 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/vickicook
+2023-08-11 14:05:01,594 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:05:01,615 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/khyatiparekh
+2023-08-11 14:05:01,615 - testing_scraper.py - main - DEBUG - Scraped 92 of 248
+2023-08-11 14:05:01,616 - testing_scraper.py - main - DEBUG - Scraped 93 of 248
+2023-08-11 14:05:01,616 - testing_scraper.py - main - DEBUG - Scraped 94 of 248
+2023-08-11 14:05:01,616 - testing_scraper.py - main - DEBUG - Scraped 95 of 248
+2023-08-11 14:05:01,616 - testing_scraper.py - main - DEBUG - Scraped 96 of 248
+2023-08-11 14:05:01,616 - testing_scraper.py - main - DEBUG - Scraped 97 of 248
+2023-08-11 14:05:01,616 - testing_scraper.py - main - DEBUG - Scraped 98 of 248
+2023-08-11 14:07:13,794 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:07:13,805 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jacquelinevecchio
+2023-08-11 14:07:13,805 - testing_scraper.py - main - DEBUG - Scraped 99 of 248
+2023-08-11 14:07:14,892 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:07:14,904 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/karaperez
+2023-08-11 14:07:16,166 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:07:16,177 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/dave.brown
+2023-08-11 14:07:19,943 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:07:19,955 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/dreamcoach
+2023-08-11 14:07:19,955 - testing_scraper.py - main - DEBUG - Scraped 100 of 248
+2023-08-11 14:07:22,062 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:07:22,074 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/gypsycordova
+2023-08-11 14:07:22,727 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:07:22,740 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/matheogalatis
+2023-08-11 14:07:22,999 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:07:23,011 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ryanchristensen
+2023-08-11 14:07:23,011 - testing_scraper.py - main - DEBUG - Scraped 101 of 248
+2023-08-11 14:07:23,157 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:07:23,170 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/radritajames1
+2023-08-11 14:07:23,170 - testing_scraper.py - main - DEBUG - Scraped 102 of 248
+2023-08-11 14:07:23,171 - testing_scraper.py - main - DEBUG - Scraped 103 of 248
+2023-08-11 14:07:23,171 - testing_scraper.py - main - DEBUG - Scraped 104 of 248
+2023-08-11 14:07:23,171 - testing_scraper.py - main - DEBUG - Scraped 105 of 248
+2023-08-11 14:07:23,171 - testing_scraper.py - main - DEBUG - Scraped 106 of 248
+2023-08-11 14:09:24,578 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:09:24,588 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/anikagray
+2023-08-11 14:09:24,588 - testing_scraper.py - main - DEBUG - Scraped 107 of 248
+2023-08-11 14:09:26,175 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:09:26,190 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/rooks
+2023-08-11 14:09:26,254 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:09:26,267 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/paragtikekar
+2023-08-11 14:09:26,267 - testing_scraper.py - main - DEBUG - Scraped 108 of 248
+2023-08-11 14:09:26,267 - testing_scraper.py - main - DEBUG - Scraped 109 of 248
+2023-08-11 14:09:32,105 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:09:32,116 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/bhupendramourya
+2023-08-11 14:09:33,395 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:09:33,407 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jules-cesarengono1
+2023-08-11 14:09:33,407 - testing_scraper.py - main - DEBUG - Scraped 110 of 248
+2023-08-11 14:09:33,407 - testing_scraper.py - main - DEBUG - Scraped 111 of 248
+2023-08-11 14:09:36,091 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:09:36,102 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/deemszfit
+2023-08-11 14:09:38,054 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:09:38,074 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/amandatice1
+2023-08-11 14:09:40,378 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:09:40,390 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/achrafainou
+2023-08-11 14:09:40,390 - testing_scraper.py - main - DEBUG - Scraped 112 of 248
+2023-08-11 14:09:40,390 - testing_scraper.py - main - DEBUG - Scraped 113 of 248
+2023-08-11 14:09:40,390 - testing_scraper.py - main - DEBUG - Scraped 114 of 248
+2023-08-11 14:14:58,539 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:14:58,544 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:14:58,557 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:14:58,560 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:14:58,561 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:14:58,569 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/skywilliams
+2023-08-11 14:14:58,574 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:14:58,576 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jaymandel
+2023-08-11 14:14:58,576 - testing_scraper.py - main - DEBUG - Scraped 115 of 248
+2023-08-11 14:14:58,586 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/brandinwilkinson1
+2023-08-11 14:14:58,589 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/geanniesanders
+2023-08-11 14:14:58,592 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/c-gordon-moose
+2023-08-11 14:14:58,594 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/christophermays
+2023-08-11 14:14:58,605 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:14:58,621 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cherylwheeler
+2023-08-11 14:14:58,621 - testing_scraper.py - main - DEBUG - Scraped 116 of 248
+2023-08-11 14:14:58,621 - testing_scraper.py - main - DEBUG - Scraped 117 of 248
+2023-08-11 14:16:59,144 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:16:59,154 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/valentinesaintmartin
+2023-08-11 14:16:59,155 - testing_scraper.py - main - DEBUG - Scraped 118 of 248
+2023-08-11 14:16:59,155 - testing_scraper.py - main - DEBUG - Scraped 119 of 248
+2023-08-11 14:16:59,155 - testing_scraper.py - main - DEBUG - Scraped 120 of 248
+2023-08-11 14:16:59,155 - testing_scraper.py - main - DEBUG - Scraped 121 of 248
+2023-08-11 14:16:59,155 - testing_scraper.py - main - DEBUG - Scraped 122 of 248
+2023-08-11 14:17:11,077 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:17:11,086 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/rwanaldoba-e
+2023-08-11 14:17:11,087 - testing_scraper.py - main - DEBUG - Scraped 123 of 248
+2023-08-11 14:17:11,998 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:17:12,009 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/rogerwohlner
+2023-08-11 14:17:14,183 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:17:14,196 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mohelgid
+2023-08-11 14:17:14,196 - testing_scraper.py - main - DEBUG - Scraped 124 of 248
+2023-08-11 14:17:18,066 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:17:18,076 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/coach
+2023-08-11 14:17:20,244 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:17:20,254 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/dionysialeolei
+2023-08-11 14:17:20,611 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:17:20,626 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/caseyduncan
+2023-08-11 14:17:20,754 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:17:20,769 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ujramdas
+2023-08-11 14:17:20,769 - testing_scraper.py - main - DEBUG - Scraped 125 of 248
+2023-08-11 14:17:20,770 - testing_scraper.py - main - DEBUG - Scraped 126 of 248
+2023-08-11 14:17:20,770 - testing_scraper.py - main - DEBUG - Scraped 127 of 248
+2023-08-11 14:17:20,771 - testing_scraper.py - main - DEBUG - Scraped 128 of 248
+2023-08-11 14:17:20,771 - testing_scraper.py - main - DEBUG - Scraped 129 of 248
+2023-08-11 14:19:08,726 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:19:08,737 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ahlamelh
+2023-08-11 14:19:08,737 - testing_scraper.py - main - DEBUG - Scraped 130 of 248
+2023-08-11 14:19:20,616 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:19:20,627 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/deepikajain
+2023-08-11 14:19:20,627 - testing_scraper.py - main - DEBUG - Scraped 131 of 248
+2023-08-11 14:19:22,837 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:19:22,856 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/abidemimarsh
+2023-08-11 14:19:22,856 - testing_scraper.py - main - DEBUG - Scraped 132 of 248
+2023-08-11 14:19:25,385 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:19:25,398 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sherrythemysticalgoddess
+2023-08-11 14:19:25,398 - testing_scraper.py - main - DEBUG - Scraped 133 of 248
+2023-08-11 14:19:29,004 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:19:29,047 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/yetundeshorters
+2023-08-11 14:19:29,051 - testing_scraper.py - main - DEBUG - Scraped 134 of 248
+2023-08-11 14:19:31,819 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:19:31,832 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/meganball
+2023-08-11 14:19:31,832 - testing_scraper.py - main - DEBUG - Scraped 135 of 248
+2023-08-11 14:19:34,151 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:19:34,188 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/gregclowminzer
+2023-08-11 14:19:36,146 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:19:36,163 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/dannybuccilli
+2023-08-11 14:19:36,165 - testing_scraper.py - main - DEBUG - Scraped 136 of 248
+2023-08-11 14:19:36,165 - testing_scraper.py - main - DEBUG - Scraped 137 of 248
+2023-08-11 14:21:19,659 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:21:19,669 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jochenjasch
+2023-08-11 14:21:19,669 - testing_scraper.py - main - DEBUG - Scraped 138 of 248
+2023-08-11 14:21:31,975 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:21:31,985 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cedricwhetten
+2023-08-11 14:21:31,985 - testing_scraper.py - main - DEBUG - Scraped 139 of 248
+2023-08-11 14:21:33,374 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:21:33,386 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/andrewjacques
+2023-08-11 14:21:33,386 - testing_scraper.py - main - DEBUG - Scraped 140 of 248
+2023-08-11 14:21:38,725 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:21:38,735 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/muokimusau
+2023-08-11 14:21:38,736 - testing_scraper.py - main - DEBUG - Scraped 141 of 248
+2023-08-11 14:21:40,588 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:21:40,626 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/daleallen
+2023-08-11 14:21:40,627 - testing_scraper.py - main - DEBUG - Scraped 142 of 248
+2023-08-11 14:21:46,362 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:21:46,371 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/adrianchoo
+2023-08-11 14:21:46,371 - testing_scraper.py - main - DEBUG - Scraped 143 of 248
+2023-08-11 14:21:48,041 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:21:48,057 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/anilbhoopal
+2023-08-11 14:21:48,057 - testing_scraper.py - main - DEBUG - Scraped 144 of 248
+2023-08-11 14:21:50,016 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:21:50,030 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/micmell
+2023-08-11 14:21:50,030 - testing_scraper.py - main - DEBUG - Scraped 145 of 248
+2023-08-11 14:23:30,711 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:23:30,722 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/chrislitherland
+2023-08-11 14:23:30,722 - testing_scraper.py - main - DEBUG - Scraped 146 of 248
+2023-08-11 14:23:41,819 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:23:41,832 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/lisabeavers
+2023-08-11 14:23:41,832 - testing_scraper.py - main - DEBUG - Scraped 147 of 248
+2023-08-11 14:23:43,256 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:23:43,269 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/marisolcolette
+2023-08-11 14:23:43,269 - testing_scraper.py - main - DEBUG - Scraped 148 of 248
+2023-08-11 14:23:48,229 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:23:48,239 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/belinda-mj-brown
+2023-08-11 14:23:48,241 - testing_scraper.py - main - DEBUG - Scraped 149 of 248
+2023-08-11 14:23:53,075 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:23:53,091 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/lauraorser
+2023-08-11 14:23:53,091 - testing_scraper.py - main - DEBUG - Scraped 150 of 248
+2023-08-11 14:23:57,026 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:23:57,043 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/debbieli
+2023-08-11 14:23:57,044 - testing_scraper.py - main - DEBUG - Scraped 151 of 248
+2023-08-11 14:23:59,475 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:23:59,491 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/askme
+2023-08-11 14:23:59,491 - testing_scraper.py - main - DEBUG - Scraped 152 of 248
+2023-08-11 14:24:01,602 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:24:01,621 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/anujsharma
+2023-08-11 14:24:01,621 - testing_scraper.py - main - DEBUG - Scraped 153 of 248
+2023-08-11 14:25:42,556 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:25:42,567 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/anthonyrich
+2023-08-11 14:25:42,567 - testing_scraper.py - main - DEBUG - Scraped 154 of 248
+2023-08-11 14:25:52,645 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:25:52,655 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/chantellehartshorne
+2023-08-11 14:25:52,655 - testing_scraper.py - main - DEBUG - Scraped 155 of 248
+2023-08-11 14:25:54,690 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:25:54,700 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/marianacarrillo
+2023-08-11 14:25:54,700 - testing_scraper.py - main - DEBUG - Scraped 156 of 248
+2023-08-11 14:26:04,914 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:26:04,924 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/naitikpatel
+2023-08-11 14:26:09,592 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:26:09,603 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/hiennguyen
+2023-08-11 14:26:12,026 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:26:12,038 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/valentinamanini
+2023-08-11 14:26:14,882 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:26:14,896 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sophiadavisfagan
+2023-08-11 14:27:52,485 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 2
+2023-08-11 14:27:52,494 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/lorinore
+2023-08-11 14:28:04,406 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:28:04,417 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/reedccain
+2023-08-11 14:28:04,528 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:28:04,539 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sherlenestevens
+2023-08-11 14:28:15,147 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:28:15,158 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/craftsman
+2023-08-11 14:28:20,809 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:28:20,820 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/ceciliacolombo
+2023-08-11 14:28:23,143 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:28:23,153 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cristinamaria
+2023-08-11 14:28:30,403 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:28:30,415 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/davidoduko
+2023-08-11 14:29:18,568 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:29:18,578 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/morganreynard
+2023-08-11 14:29:18,578 - testing_scraper.py - main - DEBUG - Scraped 157 of 248
+2023-08-11 14:29:18,579 - testing_scraper.py - main - DEBUG - Scraped 158 of 248
+2023-08-11 14:29:18,579 - testing_scraper.py - main - DEBUG - Scraped 159 of 248
+2023-08-11 14:29:18,579 - testing_scraper.py - main - DEBUG - Scraped 160 of 248
+2023-08-11 14:29:18,579 - testing_scraper.py - main - DEBUG - Scraped 161 of 248
+2023-08-11 14:29:18,579 - testing_scraper.py - main - DEBUG - Scraped 162 of 248
+2023-08-11 14:29:18,579 - testing_scraper.py - main - DEBUG - Scraped 163 of 248
+2023-08-11 14:29:18,579 - testing_scraper.py - main - DEBUG - Scraped 164 of 248
+2023-08-11 14:29:18,579 - testing_scraper.py - main - DEBUG - Scraped 165 of 248
+2023-08-11 14:29:18,579 - testing_scraper.py - main - DEBUG - Scraped 166 of 248
+2023-08-11 14:29:18,579 - testing_scraper.py - main - DEBUG - Scraped 167 of 248
+2023-08-11 14:29:18,579 - testing_scraper.py - main - DEBUG - Scraped 168 of 248
+2023-08-11 14:30:02,243 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:30:02,254 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/leslieng
+2023-08-11 14:30:02,255 - testing_scraper.py - main - DEBUG - Scraped 169 of 248
+2023-08-11 14:30:14,752 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:30:14,762 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/nikolamitrovic
+2023-08-11 14:30:14,762 - testing_scraper.py - main - DEBUG - Scraped 170 of 248
+2023-08-11 14:30:15,622 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:30:15,631 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/katierose2
+2023-08-11 14:30:15,631 - testing_scraper.py - main - DEBUG - Scraped 171 of 248
+2023-08-11 14:30:27,914 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:30:27,924 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mohammedasfar
+2023-08-11 14:30:27,925 - testing_scraper.py - main - DEBUG - Scraped 172 of 248
+2023-08-11 14:30:31,239 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:30:31,250 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jacobbrannan
+2023-08-11 14:30:31,250 - testing_scraper.py - main - DEBUG - Scraped 173 of 248
+2023-08-11 14:30:35,989 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:30:35,999 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mikekhlebas
+2023-08-11 14:30:35,999 - testing_scraper.py - main - DEBUG - Scraped 174 of 248
+2023-08-11 14:30:42,098 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:30:42,110 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/simonkange
+2023-08-11 14:30:42,110 - testing_scraper.py - main - DEBUG - Scraped 175 of 248
+2023-08-11 14:31:28,843 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:31:28,854 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/suraflow
+2023-08-11 14:31:28,855 - testing_scraper.py - main - DEBUG - Scraped 176 of 248
+2023-08-11 14:32:16,206 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:32:16,216 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/totallyradlife
+2023-08-11 14:32:16,216 - testing_scraper.py - main - DEBUG - Scraped 177 of 248
+2023-08-11 14:33:21,714 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:33:21,739 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:33:21,739 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/joegatto
+2023-08-11 14:33:21,743 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/raymartin
+2023-08-11 14:33:21,762 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tjguttormsen
+2023-08-11 14:33:21,786 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:33:21,787 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:33:21,793 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:33:21,798 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:33:21,812 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jennyoby
+2023-08-11 14:33:21,816 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/reedsullivan
+2023-08-11 14:33:21,816 - testing_scraper.py - main - DEBUG - Scraped 178 of 248
+2023-08-11 14:33:21,817 - testing_scraper.py - main - DEBUG - Scraped 179 of 248
+2023-08-11 14:33:21,818 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/joshier-williams
+2023-08-11 14:33:21,822 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/curtisceaser
+2023-08-11 14:33:21,823 - testing_scraper.py - main - DEBUG - Scraped 180 of 248
+2023-08-11 14:33:21,823 - testing_scraper.py - main - DEBUG - Scraped 181 of 248
+2023-08-11 14:33:21,823 - testing_scraper.py - main - DEBUG - Scraped 182 of 248
+2023-08-11 14:33:21,824 - testing_scraper.py - main - DEBUG - Scraped 183 of 248
+2023-08-11 14:33:38,750 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:33:38,764 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/isabellasuarez
+2023-08-11 14:33:38,764 - testing_scraper.py - main - DEBUG - Scraped 184 of 248
+2023-08-11 14:35:36,326 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:35:38,510 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:35:38,553 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:35:42,149 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:35:43,933 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:35:45,973 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 14:35:48,958 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:39:01,410 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:44:55,504 - testing_scraper.py - main - DEBUG - topic='personal-coaching' (1 of 161) | To scrape: 248 | From cache: 0
+2023-08-11 14:44:55,505 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mikesearles
+2023-08-11 14:44:55,505 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tvh
+2023-08-11 14:44:55,506 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jameskingham
+2023-08-11 14:44:55,506 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/demario
+2023-08-11 14:44:55,506 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevedyson
+2023-08-11 14:44:55,512 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jasondemakis
+2023-08-11 14:44:55,513 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/gavinweber
+2023-08-11 14:44:55,514 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sharadkiyal
+2023-08-11 14:48:50,296 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/zdenkalubenova
+2023-08-11 14:48:50,297 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/richardmoh
+2023-08-11 14:48:50,298 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/meenakshi-j-kamath
+2023-08-11 14:49:22,345 - testing_scraper.py - main - DEBUG - topic='personal-coaching' (1 of 161) | To scrape: 248 | From cache: 0
+2023-08-11 14:49:22,346 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mikesearles
+2023-08-11 14:49:22,347 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tvh
+2023-08-11 14:49:22,347 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jameskingham
+2023-08-11 14:49:22,348 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/demario
+2023-08-11 14:49:22,349 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevedyson
+2023-08-11 14:49:22,349 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jasondemakis
+2023-08-11 14:49:22,352 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/gavinweber
+2023-08-11 14:49:22,353 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sharadkiyal
+2023-08-11 14:54:08,641 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/zdenkalubenova
+2023-08-11 14:54:08,667 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/richardmoh
+2023-08-11 14:54:08,670 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/meenakshi-j-kamath
+2023-08-11 14:56:17,496 - testing_scraper.py - main - DEBUG - topic='personal-coaching' (1 of 161) | To scrape: 248 | From cache: 0
+2023-08-11 14:56:17,497 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mikesearles
+2023-08-11 14:56:17,498 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tvh
+2023-08-11 14:56:17,498 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jameskingham
+2023-08-11 14:56:17,500 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/demario
+2023-08-11 14:56:17,500 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevedyson
+2023-08-11 14:56:17,503 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jasondemakis
+2023-08-11 14:56:17,503 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/gavinweber
+2023-08-11 14:56:17,504 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sharadkiyal
+2023-08-11 14:56:36,294 - testing_scraper.py - scrape_url - WARNING - fails=1 | Having difficulty connecting to page.
+2023-08-11 14:56:36,295 - testing_scraper.py - scrape_url - WARNING - fails=1 | Having difficulty connecting to page.
+2023-08-11 14:56:36,296 - testing_scraper.py - scrape_url - WARNING - fails=1 | Having difficulty connecting to page.
+2023-08-11 14:56:36,310 - testing_scraper.py - scrape_url - WARNING - fails=1 | Having difficulty connecting to page.
+2023-08-11 14:56:36,310 - testing_scraper.py - scrape_url - WARNING - fails=1 | Having difficulty connecting to page.
+2023-08-11 14:56:36,311 - testing_scraper.py - scrape_url - WARNING - fails=2 | Having difficulty connecting to page.
+2023-08-11 14:56:36,312 - testing_scraper.py - scrape_url - WARNING - fails=2 | Having difficulty connecting to page.
+2023-08-11 14:56:36,315 - testing_scraper.py - scrape_url - WARNING - fails=1 | Having difficulty connecting to page.
+2023-08-11 14:56:36,323 - testing_scraper.py - scrape_url - WARNING - fails=2 | Having difficulty connecting to page.
+2023-08-11 14:56:36,325 - testing_scraper.py - scrape_url - WARNING - fails=1 | Having difficulty connecting to page.
+2023-08-11 14:56:36,327 - testing_scraper.py - scrape_url - WARNING - fails=1 | Having difficulty connecting to page.
+2023-08-11 14:56:36,331 - testing_scraper.py - scrape_url - WARNING - fails=3 | Having difficulty connecting to page.
+2023-08-11 14:56:36,331 - testing_scraper.py - scrape_url - WARNING - Failed too many times. Returning all "None"
+2023-08-11 14:56:36,333 - testing_scraper.py - scrape_url - WARNING - fails=2 | Having difficulty connecting to page.
+2023-08-11 14:56:36,341 - testing_scraper.py - scrape_url - WARNING - fails=2 | Having difficulty connecting to page.
+2023-08-11 14:56:36,342 - testing_scraper.py - scrape_url - WARNING - fails=3 | Having difficulty connecting to page.
+2023-08-11 14:56:36,343 - testing_scraper.py - scrape_url - WARNING - Failed too many times. Returning all "None"
+2023-08-11 14:56:36,345 - testing_scraper.py - scrape_url - WARNING - fails=3 | Having difficulty connecting to page.
+2023-08-11 14:56:36,346 - testing_scraper.py - scrape_url - WARNING - Failed too many times. Returning all "None"
+2023-08-11 14:56:36,346 - testing_scraper.py - scrape_url - WARNING - fails=2 | Having difficulty connecting to page.
+2023-08-11 14:56:36,348 - testing_scraper.py - scrape_url - WARNING - fails=3 | Having difficulty connecting to page.
+2023-08-11 14:56:36,348 - testing_scraper.py - scrape_url - WARNING - Failed too many times. Returning all "None"
+2023-08-11 14:56:36,354 - testing_scraper.py - scrape_url - WARNING - fails=2 | Having difficulty connecting to page.
+2023-08-11 14:56:36,364 - testing_scraper.py - scrape_url - WARNING - fails=3 | Having difficulty connecting to page.
+2023-08-11 14:56:36,364 - testing_scraper.py - scrape_url - WARNING - Failed too many times. Returning all "None"
+2023-08-11 14:56:36,364 - testing_scraper.py - scrape_url - WARNING - fails=2 | Having difficulty connecting to page.
+2023-08-11 14:56:36,369 - testing_scraper.py - scrape_url - WARNING - fails=3 | Having difficulty connecting to page.
+2023-08-11 14:56:36,369 - testing_scraper.py - scrape_url - WARNING - Failed too many times. Returning all "None"
+2023-08-11 14:56:36,372 - testing_scraper.py - scrape_url - WARNING - fails=3 | Having difficulty connecting to page.
+2023-08-11 14:56:36,373 - testing_scraper.py - scrape_url - WARNING - Failed too many times. Returning all "None"
+2023-08-11 14:56:36,374 - testing_scraper.py - scrape_url - WARNING - fails=3 | Having difficulty connecting to page.
+2023-08-11 14:56:36,374 - testing_scraper.py - scrape_url - WARNING - Failed too many times. Returning all "None"
+2023-08-11 14:56:36,723 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/zdenkalubenova
+2023-08-11 14:56:36,723 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/richardmoh
+2023-08-11 14:56:36,738 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/meenakshi-j-kamath
+2023-08-11 14:57:26,718 - testing_scraper.py - main - DEBUG - topic='personal-coaching' (1 of 161) | To scrape: 248 | From cache: 0
+2023-08-11 14:57:26,719 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mikesearles
+2023-08-11 14:57:26,720 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tvh
+2023-08-11 14:57:26,720 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jameskingham
+2023-08-11 14:57:26,721 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/demario
+2023-08-11 14:57:26,721 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevedyson
+2023-08-11 14:57:26,723 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jasondemakis
+2023-08-11 14:57:26,724 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/gavinweber
+2023-08-11 14:57:26,724 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sharadkiyal
+2023-08-11 14:58:54,291 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:58:54,302 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:58:54,320 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 5
+2023-08-11 14:58:54,344 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:58:54,350 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 14:58:54,356 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:58:54,357 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 14:58:54,366 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 14:58:54,684 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/zdenkalubenova
+2023-08-11 14:59:44,595 - testing_scraper.py - main - DEBUG - topic='personal-coaching' (1 of 161) | To scrape: 248 | From cache: 0
+2023-08-11 14:59:44,596 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mikesearles
+2023-08-11 14:59:44,596 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tvh
+2023-08-11 14:59:44,597 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jameskingham
+2023-08-11 14:59:44,597 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/demario
+2023-08-11 14:59:44,598 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevedyson
+2023-08-11 14:59:44,598 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jasondemakis
+2023-08-11 14:59:44,599 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/gavinweber
+2023-08-11 14:59:44,601 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sharadkiyal
+2023-08-11 14:59:52,293 - testing_scraper.py - scrape_url - WARNING - fails=1 | Cannot connect to https://clarity.fm/tvh
+2023-08-11 14:59:52,294 - testing_scraper.py - scrape_url - WARNING - fails=1 | Cannot connect to https://clarity.fm/stevedyson
+2023-08-11 14:59:52,294 - testing_scraper.py - scrape_url - WARNING - fails=1 | Cannot connect to https://clarity.fm/jameskingham
+2023-08-11 14:59:52,297 - testing_scraper.py - scrape_url - WARNING - fails=1 | Cannot connect to https://clarity.fm/gavinweber
+2023-08-11 14:59:52,306 - testing_scraper.py - scrape_url - WARNING - fails=2 | Cannot connect to https://clarity.fm/tvh
+2023-08-11 14:59:52,311 - testing_scraper.py - scrape_url - WARNING - fails=2 | Cannot connect to https://clarity.fm/jameskingham
+2023-08-11 14:59:52,312 - testing_scraper.py - scrape_url - WARNING - fails=2 | Cannot connect to https://clarity.fm/gavinweber
+2023-08-11 14:59:52,314 - testing_scraper.py - scrape_url - WARNING - fails=2 | Cannot connect to https://clarity.fm/stevedyson
+2023-08-11 14:59:52,318 - testing_scraper.py - scrape_url - WARNING - fails=3 | Cannot connect to https://clarity.fm/tvh
+2023-08-11 14:59:52,318 - testing_scraper.py - scrape_url - WARNING - Failed too many times. Returning all "None"
+2023-08-11 14:59:52,324 - testing_scraper.py - scrape_url - WARNING - fails=3 | Cannot connect to https://clarity.fm/jameskingham
+2023-08-11 14:59:52,324 - testing_scraper.py - scrape_url - WARNING - Failed too many times. Returning all "None"
+2023-08-11 14:59:52,327 - testing_scraper.py - scrape_url - WARNING - fails=3 | Cannot connect to https://clarity.fm/stevedyson
+2023-08-11 14:59:52,327 - testing_scraper.py - scrape_url - WARNING - Failed too many times. Returning all "None"
+2023-08-11 14:59:52,329 - testing_scraper.py - scrape_url - WARNING - fails=3 | Cannot connect to https://clarity.fm/gavinweber
+2023-08-11 14:59:52,330 - testing_scraper.py - scrape_url - WARNING - Failed too many times. Returning all "None"
+2023-08-11 14:59:52,551 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/zdenkalubenova
+2023-08-11 14:59:52,567 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/richardmoh
+2023-08-11 14:59:52,578 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/meenakshi-j-kamath
+2023-08-11 14:59:52,585 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/patmazor
+2023-08-11 15:01:04,518 - testing_scraper.py - main - DEBUG - topic='personal-coaching' (1 of 161) | To scrape: 248 | From cache: 0
+2023-08-11 15:01:04,519 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/mikesearles
+2023-08-11 15:01:04,519 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/tvh
+2023-08-11 15:01:04,520 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jameskingham
+2023-08-11 15:01:04,521 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/demario
+2023-08-11 15:01:04,521 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/stevedyson
+2023-08-11 15:01:04,524 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jasondemakis
+2023-08-11 15:01:04,525 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/gavinweber
+2023-08-11 15:01:04,526 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/sharadkiyal
+2023-08-11 15:03:16,145 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 15:03:16,145 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/jasondemakis', 'name': 'Jason Demakis - Getting Really Clear About Direction & Defeating Ambiguity & Identifying Your Roadblocks Expert — Clarity', 'location': 'Concord, NH', 'price': '1.67', 'linkedin_link': 'https://www.linkedin.com/in/jasondemakis', 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': 'Freelance Copywriter (specializing in psychology, philosophy, human behavior/marketing ) Entrepreneur, Founder/Owner/Author of JasonDemakis.com & several self-published ebooks, Contributing Author of ExpandedConsciousness.com, The Universal Beat, and High Existence.  Passionate about assisting others in achieving clarity for both business and personal development. Coaching on how to access and provide your highest possible value to the market from a center of genuine passion and self-fulfillment!'}
+2023-08-11 15:03:16,154 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/zdenkalubenova
+2023-08-11 15:03:16,596 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 15:03:16,596 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/mikesearles', 'name': 'Mike Searles - the COMEBACK Coach Expert - Clarity', 'location': 'Australia', 'price': '16.67', 'linkedin_link': 'https://www.linkedin.com/in/mikejsearles', 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': 'Achievers in business, sport, and the performing arts work with me when making a comeback from setbacks. I am The Comeback Coach.'}
+2023-08-11 15:03:16,611 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/richardmoh
+2023-08-11 15:03:16,611 - testing_scraper.py - main - DEBUG - Scraped 1 of 28
+2023-08-11 15:03:19,602 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 15:03:19,602 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/tvh', 'name': 'Teddi Havranek - Simple Techniques and Mind Hacks to Reach Any Goal. Expert - Clarity', 'location': 'Kennewick, wa', 'price': '1.67', 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': 'ICF certified health and life coach, equipped with the necessary skills to help you define and achieve your set medical or life goals. Simple, easy, daily techniques that make reaching your goals achievable.'}
+2023-08-11 15:03:19,617 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/meenakshi-j-kamath
+2023-08-11 15:03:19,617 - testing_scraper.py - main - DEBUG - Scraped 2 of 28
+2023-08-11 15:03:23,448 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 15:03:23,448 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/gavinweber', 'name': 'Gavin Weber - Developing an &quot;Unlimited Possibility Mindset" to Create Anything You Want Expert — Clarity', 'location': 'San Diego, CA', 'price': '2.50', 'linkedin_link': 'http://www.linkedin.com/pub/gavin-weber/10/37/55a', 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': 'Showing people how to make the impossible routine through having them experiencing it firsthand.'}
+2023-08-11 15:03:23,461 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/patmazor
+2023-08-11 15:03:24,601 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 15:03:24,602 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/sharadkiyal', 'name': 'Sharad Kiyal - Personal Coaching Expert - Clarity', 'location': 'Bengaluru, India', 'price': '5', 'linkedin_link': 'https://www.linkedin.com/in/sharadkiyal', 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': 'I enable people to think clearly, lead effectively, develop entrepreneurship, speak well and remain stress free most of the time from past six years.  I have completed DGM from University of London, PGPM from Globsyn Business School. I have trained hundreds of professionals both on one to one basis and in a group combined.   I have coached many mid-level managers to improve themselves and manage the people as a performance coach since past 8 years.   I am also giving corporate trainings on Leadership and Entrepreneurship and Effective thinking.'}
+2023-08-11 15:03:24,615 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/lisaabramson
+2023-08-11 15:03:26,291 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 15:03:26,291 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/jameskingham', 'name': 'james kingham - I Can Help Translate Your Business Vision Into Results Expert - Clarity', 'location': 'UK', 'price': '1.67', 'linkedin_link': 'https://www.linkedin.com/pub/james-kingham/30/26/a31', 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': 'UK Entrepreneur, business enthusiast. Co founder of Clarity IQ, pioneer FastStepTM the business transformation lifecycle framework and Author of “ How To Become A Start Pro." I am Passionate about helping businesses to resolve their most pressing challenges.'}
+2023-08-11 15:03:26,303 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kristinquattlebaum
+2023-08-11 15:03:26,303 - testing_scraper.py - main - DEBUG - Scraped 3 of 28
+2023-08-11 15:03:47,353 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 5
+2023-08-11 15:03:47,353 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/kristinquattlebaum', 'name': 'Kristin Quattlebaum - Intuitive Clarity & Business Alignment Expert - Clarity', 'location': 'Buffalo, NY', 'price': '3.33', 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:03:47,357 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 15:03:47,358 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/zdenkalubenova', 'name': 'Zdenka Lubenova - Personal Life Coaching 1-1 Expert - Clarity', 'location': 'Olomouc, Czech Republic', 'price': '5', 'linkedin_link': 'https://www.linkedin.com/in/zdenkalubenova', 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:03:47,422 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 15:03:47,423 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/stevedyson', 'name': 'Steve Dyson - I Will Give You Advise on Buying a Franchise or Business Opportunity & I Will Give You Advise on Cold Calling Expert — Clarity', 'location': None, 'price': None, 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:03:47,423 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 15:03:47,424 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/richardmoh', 'name': 'richard moh - Gaining Clarity Through Self Awareness Expert - Clarity', 'location': None, 'price': None, 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:03:47,429 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 15:03:47,429 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/lisaabramson', 'name': 'Lisa Abramson - Executive Coaching & Becoming Resilient AF Expert - Clarity', 'location': None, 'price': None, 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:03:47,430 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 15:03:47,430 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/patmazor', 'name': 'Patrick Mazor — Clarity', 'location': None, 'price': None, 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:03:47,657 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kamalkumar
+2023-08-11 15:03:47,661 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/guilhermepaternostre
+2023-08-11 15:03:47,662 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/lifecoachunited
+2023-08-11 15:03:47,667 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/potentialbrilliance
+2023-08-11 15:03:47,681 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/volkersigg
+2023-08-11 15:03:47,697 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/benggalolempo
+2023-08-11 15:04:02,261 - testing_scraper.py - main - DEBUG - topic='personal-coaching' (1 of 161) | To scrape: 248 | From cache: 0
+2023-08-11 15:04:02,262 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/l-david-harris
+2023-08-11 15:04:02,263 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jonathansafir
+2023-08-11 15:04:02,263 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/timothyzweng
+2023-08-11 15:04:02,265 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/lulama-sandrabushula
+2023-08-11 15:04:02,265 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/kamranmammadov
+2023-08-11 15:04:02,267 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/keegandivant
+2023-08-11 15:04:02,268 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/cliostoidis
+2023-08-11 15:04:02,268 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/daniellebernock
+2023-08-11 15:06:15,041 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 15:06:15,041 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/timothyzweng', 'name': 'Timothy Zweng - General Life Advice Expert — Clarity', 'location': 'Battle Creek, MI', 'price': '1', 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': 'Jack of all trades US Navy veteran. Continues to serve the country as a Department of Defense employee. Life coach and mentor to many local young people. Continuous self improvement and leadership training through personal and professional development.'}
+2023-08-11 15:06:27,250 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 3
+2023-08-11 15:06:27,250 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/daniellebernock', 'name': 'Danielle E Bernock - TAKE OWNERSHIP and Move Forward & DISCOVER & PURSUE Your Greatest Desire (Aka Dream) Expert — Clarity', 'location': 'Shelby Township, MI', 'price': '2', 'linkedin_link': None, 'twitter_link': 'http://twitter.com/DBernock', 'rating': None, 'reviews': None, 'bio': 'Founder 4F Media and Victorious Souls. Trauma-Informed, Faith-Based, Self-Love Coach, Author, Speaker, and Podcast Host of Victorious Souls Podcast.'}
+2023-08-11 15:06:31,656 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 15:06:31,656 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/cliostoidis', 'name': 'Clio Stoidis - Gut Health Expert ~ Certified Integrative Nutrition Health Coach Expert - Clarity', 'location': 'Athens, GR', 'price': '2', 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': "Hi There, I'm Clio. I am a lawyer-turned-health coach.  Founder at Magnifique Life with Crohn's. What led me to become a health coach was my own journey to health after being diagnosed with Crohn's disease (an irritable bowel disease). After 7 years of incessant pain and discomfort, I managed to break free and heal my symptoms. I now help women globally overcome a chrnonic digestive issue"}
+2023-08-11 15:09:33,180 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 5
+2023-08-11 15:09:33,181 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/l-david-harris', 'name': 'LDavid Harris - Building Effective Teams & Mastering Your Productivity Expert - Clarity', 'location': None, 'price': '4.17', 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': "Hi there! My name is L. David, and I am a success and accountability coach who works as an affiliate of critically acclaimed Dr. Eric Thomas (ET, the Hip Hop Preacher). As a success coach, my mission is to help individuals identify and achieve their personal and professional goals by providing guidance, motivation, and support. With a deep understanding of the importance of accountability in the pursuit of success, I work closely with my clients to develop proven strategies that enable them to stay on track and overcome obstacles along the way. I am passionate about empowering individuals and companies to realize their full potential, and I am committed to helping them create the life and success pathway they truly want. Let's work together to achieve your dreams and make them a reality!"}
+2023-08-11 15:09:33,191 - testing_scraper.py - main - DEBUG - Scraped 1 of 8
+2023-08-11 15:09:42,189 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 15:09:42,189 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/kamranmammadov', 'name': 'Kamran Mammadov - Motivational & Insparational Expert - Clarity', 'location': None, 'price': '1', 'linkedin_link': 'https://www.linkedin.com/in/kamranmammadov', 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': "I'm a trainer, a speaker and a startup consultant on Motivational / Inspirational and various topics.  Motivational / Inspirational, Personal Development, Psychological Preparation, Self-awareness, Relations, Body language, The basis of success, Career, Leadership, Team work"}
+2023-08-11 15:09:42,357 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 5
+2023-08-11 15:09:42,357 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/jonathansafir', 'name': 'Jonathan Safir - Team Building & Progressive Decision-Making Expert — Clarity', 'location': None, 'price': '3.33', 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': 'Vassar -> Columbia -> USF Data-informed decision making. https://collegebasketball.nbcsports.com/2020/01/16/why-does-san-francisco-intentionally-foul-at-the-end-of-the-first-half/'}
+2023-08-11 15:09:42,367 - testing_scraper.py - main - DEBUG - Scraped 2 of 8
+2023-08-11 15:09:42,367 - testing_scraper.py - main - DEBUG - Scraped 3 of 8
+2023-08-11 15:09:49,182 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 5
+2023-08-11 15:09:49,182 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/lulama-sandrabushula', 'name': 'Lulama Sandra Bushula - Parenting and Motherhood & Credit Analysis and Personal Finance (Entrepreneur) Expert - Clarity', 'location': None, 'price': '1', 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': "I'm a serial side hustler with a penchant for personal finance and motherhood. I am an expert at parenting and generating sustainable additional income streams."}
+2023-08-11 15:09:49,193 - testing_scraper.py - main - DEBUG - Scraped 4 of 8
+2023-08-11 15:09:49,193 - testing_scraper.py - main - DEBUG - Scraped 5 of 8
+2023-08-11 15:09:50,535 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 4
+2023-08-11 15:09:50,535 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/keegandivant', 'name': 'Keegan Divant - Finding Your Passion Expert — Clarity', 'location': None, 'price': '2.92', 'linkedin_link': 'http://www.linkedin.com/in/keegans', 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': 'Founder of The Passion Project, Life Coach, and Successful Entrepreneur. I help my clients discover their true passions. I then work with them in developing plans to leverage their passion into profits.'}
+2023-08-11 15:09:50,548 - testing_scraper.py - main - DEBUG - Scraped 6 of 8
+2023-08-11 15:09:50,549 - testing_scraper.py - main - DEBUG - Scraped 7 of 8
+2023-08-11 15:09:50,549 - testing_scraper.py - main - DEBUG - Scraped 8 of 8
+2023-08-11 15:10:50,552 - testing_scraper.py - main - DEBUG - topic='negotiation' (2 of 161) | To scrape: 249 | From cache: 0
+2023-08-11 15:10:50,554 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/greg-smith
+2023-08-11 15:10:50,555 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/michaeltalve
+2023-08-11 15:10:50,558 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/julianbienert
+2023-08-11 15:10:50,560 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/giovannimarsico
+2023-08-11 15:10:50,561 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/jillrichmond
+2023-08-11 15:10:50,565 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/davidgalvan
+2023-08-11 15:10:50,572 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/michelleblanc
+2023-08-11 15:10:50,577 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/canaflora
+2023-08-11 15:12:04,737 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 15:12:04,737 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/giovannimarsico', 'name': 'Giovanni Marsico - Are You a Big-Hearted Entrepreneur? Expert - Clarity', 'location': None, 'price': None, 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:12:04,740 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 15:12:04,740 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/michelleblanc', 'name': 'Michel LeBlanc - Expert - Clarity', 'location': None, 'price': None, 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:12:04,747 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 15:12:04,748 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/greg-smith', 'name': 'Greg Smith - Online Course Creation & Distribution & Online Course Marketing & Distribution Expert - Clarity', 'location': None, 'price': None, 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:12:04,751 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 15:12:04,751 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/davidgalvan', 'name': 'David Galvan - Expert - Clarity', 'location': None, 'price': None, 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:12:04,754 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 15:12:04,755 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/michaeltalve', 'name': 'Michael Talve - Expert - Clarity', 'location': None, 'price': None, 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:12:04,755 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 15:12:04,756 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/canaflora', 'name': 'Andriy Azarov - Call Me to Get E-Commerce and Operation Advice or to Sell Your Stuff Expert - Clarity', 'location': None, 'price': None, 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:12:04,756 - testing_scraper.py - scrape_url - DEBUG - Num Nones: 7
+2023-08-11 15:12:04,756 - testing_scraper.py - scrape_url - DEBUG - {'url': 'https://clarity.fm/julianbienert', 'name': 'Julian Bienert - International Business Development, Branding, Franchising Expert - Clarity', 'location': None, 'price': None, 'linkedin_link': None, 'twitter_link': None, 'rating': None, 'reviews': None, 'bio': None}
+2023-08-11 15:12:04,961 - testing_scraper.py - scrape_url - DEBUG - scraping https://clarity.fm/amineboukaa

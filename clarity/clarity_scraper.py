@@ -195,7 +195,7 @@ def get_consultant_data_from_html(html_code):
     """
     consultant_data = dict()
 
-    soup = BeautifulSoup(html_code)
+    soup = BeautifulSoup(html_code, 'html.parser')
 
     # get name
     try:
@@ -233,9 +233,17 @@ def get_consultant_data_from_html(html_code):
     logger.debug(f'{price=}')
 
     # linked and twitter links:
+    sticky_sidebar_element = soup.find('div', class_='sticky-sidebar')
+    print(sticky_sidebar_element)
+    inner_dark_element = sticky_sidebar_element.find('div', class_='inner dark')
+    print(inner_dark_element)
+
+
+    expanded_content = soup.find('div', class_='expanded-content')
+    print(expanded_content.name)
     try:
-        linkedin_xpath = r'//*[@id="container"]/article/div[5]/article/div[1]/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[2]/a[2]'
-        linkedin_element = soup.select_one(linkedin_xpath)
+        # linkedin_xpath = r'//*[@id="container"]/article/div[5]/article/div[1]/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[2]/a[2]'
+        linkedin_element = expanded_content.select_one('a[class*="linkedin"]')
         linkedin_link = linkedin_element.get('href')
     except:
         linkedin_link = None
@@ -244,8 +252,9 @@ def get_consultant_data_from_html(html_code):
     logger.debug(f'{linkedin_link=}')
 
     try:
-        twitter_xpath = r'//*[@id="container"]/article/div[5]/article/div[1]/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[2]/a[3]'
-        twitter_element = soup.select_one(twitter_xpath)
+        # twitter_xpath = r'//*[@id="container"]/article/div[5]/article/div[1]/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[2]/a[3]'
+        # twitter_element = soup.select_one(twitter_xpath)
+        twitter_element = expanded_content.select_one('a[class*="twitter"]')
         twitter_link = twitter_element.get('href')
     except:
         twitter_link = None
