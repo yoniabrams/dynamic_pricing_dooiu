@@ -7,13 +7,14 @@ from playwright.sync_api import sync_playwright
 import re
 import time
 import logging
+import pandas as pd
+import os
 
 USERNAME = 'brd-customer-hl_ba3e6f4f-zone-clarity_scraper'
 PASSWORD = 'ihmvjo2tgn2r'
 AUTH_CODE = f"{USERNAME}:{PASSWORD}"
 PORT = '9222'
 BROWSER_URL = f'https://{AUTH_CODE}@brd.superproxy.io:{PORT}'
-
 
 """
 {
@@ -54,7 +55,6 @@ if USE_STREAM_HANDLER:
     stream_handler.setFormatter(formatter)
     logger.addHandler(stream_handler)
 
-
 # SELECTORS for playwright
 TITLE_SELECTOR = 'document.title'
 LOCATION_SELECTOR = '.profile .location'
@@ -73,13 +73,12 @@ REGEX_MINUTE_RATE_PATTERN = r'\$(\d+(\.\d+)?)'
 def scrape_url(url):
     logger.debug(f'scraping {url}')
     with sync_playwright() as p:
-        browser = p.chromium.launch()
-        context = browser.new_context()
-        page = context.new_page()
-
         fails = 0
         while True:  # keep trying to connect to page, 5 times. Otherwise, return None
             try:
+                browser = p.chromium.launch()
+                context = browser.new_context()
+                page = context.new_page()
                 page.goto(url, timeout=120000)
                 break
             except:
@@ -173,14 +172,36 @@ def scrape_url(url):
         return consultant_data
 
 
+def get_cache():
+    '''
+    Create a cache of data which has already been gathered from various urls, spanning all csv files in the data folder
+    Cache is a dictionary with the url as the key, and the values are the data from the url, except for the category.
+    :return: Cache
+    '''
+    data_file_paths = os.listdir('data')
+    cache = {}
+    for file_path in data_file_paths:
+        df = pd.read_csv(f'data/{file_path}', index_col=0)
+        for index, row in df.iterrows():
+            url = row['url']
+            if url in cache:
+                continue
+            data = row.drop('category').to_dict()
+            cache[url] = data
+    return cache
+
+
 def main():
     urls = eval(open('save_urls.txt', 'r').read())
 
     all_results = list()
-    cache= dict()
+    cache= get_cache()
 
     num_topics = len(list(urls.keys()))
     for i, topic in enumerate(reversed(list(urls.keys()))):
+        if i <= 23:
+            continue
+
         urls_for_topic = urls[topic]
         already_scraped = [url for url in urls_for_topic if url in cache]
         need_to_scrape = [url for url in urls_for_topic if url not in cache]
@@ -203,11 +224,11 @@ def main():
                 count += 1
                 logger.debug(f'Scraped {count} of {len(need_to_scrape)}')
 
-        with open('data.txt', 'w') as safety_net:
-            safety_net.write(str(all_results))
+        all_results_df = pd.DataFrame(all_results)
+        all_results_df.to_csv(f'data/data_{i}.csv')
 
-        # Pause for a minute
-        time.sleep(60)
+        # Pause for 2 minutes
+        time.sleep(120)
 
 
 if __name__ == '__main__':

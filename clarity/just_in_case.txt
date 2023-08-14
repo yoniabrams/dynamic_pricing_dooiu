@@ -1,1 +1,0 @@
-[{'name': 'Mike Moyer', 'location': 'Greater Chicago Area', 'price': '2.92', 'linkedin': 'https://www.linkedin.com/in/mikemoyer', 'twitter': 'http://twitter.com/SlicingPie', 'rating': None, 'reviews': None, 'category': 'entrepreneurship'}]
